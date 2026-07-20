@@ -17,7 +17,19 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/anthropic/claude-fable-5"
+      "source": "https://openrouter.ai/anthropic/claude-fable-5",
+      "openrouter_id": "anthropic/claude-fable-5",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 10.0,
+      "price_output_per_mtok": 50.0
     },
     {
       "model": "claude-opus-4-7-thinking",
@@ -29,7 +41,19 @@
       "launch_num": 2026.25,
       "end": "2027-04-16",
       "end_num": 2027.25,
-      "source": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      "source": "https://openrouter.ai/anthropic/claude-opus-4.7",
+      "openrouter_id": "anthropic/claude-opus-4.7",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 25.0
     },
     {
       "model": "claude-opus-4-6",
@@ -41,7 +65,13 @@
       "launch_num": 2026.083,
       "end": "2027-02-05",
       "end_num": 2027.083,
-      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-6-thinking",
@@ -53,7 +83,13 @@
       "launch_num": 2026.083,
       "end": "2027-02-05",
       "end_num": 2027.083,
-      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-7",
@@ -65,7 +101,19 @@
       "launch_num": 2026.25,
       "end": "2027-04-16",
       "end_num": 2027.25,
-      "source": "https://openrouter.ai/anthropic/claude-opus-4.7"
+      "source": "https://openrouter.ai/anthropic/claude-opus-4.7",
+      "openrouter_id": "anthropic/claude-opus-4.7",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 25.0
     },
     {
       "model": "muse-spark-1.1",
@@ -77,7 +125,19 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta/muse-spark-1.1"
+      "source": "https://openrouter.ai/meta/muse-spark-1.1",
+      "openrouter_id": "meta/muse-spark-1.1",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 4.25
     },
     {
       "model": "gpt-5.6-sol-xhigh",
@@ -89,7 +149,20 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.6-sol"
+      "source": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "openrouter_id": "openai/gpt-5.6-sol",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 30.0
     },
     {
       "model": "kimi-k3",
@@ -101,7 +174,17 @@
       "launch_num": 2026.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k3"
+      "source": "https://openrouter.ai/moonshotai/kimi-k3",
+      "openrouter_id": "moonshotai/kimi-k3",
+      "supported_efforts": [
+        "max",
+        "high",
+        "low"
+      ],
+      "default_effort": "max",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 3.0,
+      "price_output_per_mtok": 15.0
     },
     {
       "model": "claude-opus-4-8-thinking",
@@ -113,7 +196,19 @@
       "launch_num": 2026.333,
       "end": "2027-05-28",
       "end_num": 2027.333,
-      "source": "https://openrouter.ai/anthropic/claude-opus-4.8"
+      "source": "https://openrouter.ai/anthropic/claude-opus-4.8",
+      "openrouter_id": "anthropic/claude-opus-4.8",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 25.0
     },
     {
       "model": "gpt-5.5-high",
@@ -125,7 +220,19 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.5"
+      "source": "https://openrouter.ai/openai/gpt-5.5",
+      "openrouter_id": "openai/gpt-5.5",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 30.0
     },
     {
       "model": "gemini-3.5-flash-high",
@@ -137,7 +244,18 @@
       "launch_num": 2026.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemini-3.5-flash"
+      "source": "https://openrouter.ai/google/gemini-3.5-flash",
+      "openrouter_id": "google/gemini-3.5-flash",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.5,
+      "price_output_per_mtok": 9.0
     },
     {
       "model": "gemini-3.5-flash-medium",
@@ -149,7 +267,18 @@
       "launch_num": 2026.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemini-3.5-flash"
+      "source": "https://openrouter.ai/google/gemini-3.5-flash",
+      "openrouter_id": "google/gemini-3.5-flash",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.5,
+      "price_output_per_mtok": 9.0
     },
     {
       "model": "claude-opus-4-8",
@@ -161,7 +290,19 @@
       "launch_num": 2026.333,
       "end": "2027-05-28",
       "end_num": 2027.333,
-      "source": "https://openrouter.ai/anthropic/claude-opus-4.8"
+      "source": "https://openrouter.ai/anthropic/claude-opus-4.8",
+      "openrouter_id": "anthropic/claude-opus-4.8",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 25.0
     },
     {
       "model": "gemini-3.5-flash",
@@ -173,7 +314,18 @@
       "launch_num": 2026.333,
       "end": "2026-07?",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/google/gemini-3.5-flash"
+      "source": "https://openrouter.ai/google/gemini-3.5-flash",
+      "openrouter_id": "google/gemini-3.5-flash",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.5,
+      "price_output_per_mtok": 9.0
     },
     {
       "model": "gpt-5.5",
@@ -185,7 +337,19 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.5"
+      "source": "https://openrouter.ai/openai/gpt-5.5",
+      "openrouter_id": "openai/gpt-5.5",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 5.0,
+      "price_output_per_mtok": 30.0
     },
     {
       "model": "qwen3.7-max-preview",
@@ -197,7 +361,13 @@
       "launch_num": 2026.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.7-max"
+      "source": "https://openrouter.ai/qwen/qwen3.7-max",
+      "openrouter_id": "qwen/qwen3.7-max",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.475,
+      "price_output_per_mtok": 4.425
     },
     {
       "model": "grok-4.5",
@@ -209,7 +379,17 @@
       "launch_num": 2026.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-4.5"
+      "source": "https://openrouter.ai/x-ai/grok-4.5",
+      "openrouter_id": "x-ai/grok-4.5",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 2.0,
+      "price_output_per_mtok": 6.0
     },
     {
       "model": "glm-5.2 (max)",
@@ -221,7 +401,16 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-5.2"
+      "source": "https://openrouter.ai/z-ai/glm-5.2",
+      "openrouter_id": "z-ai/glm-5.2",
+      "supported_efforts": [
+        "xhigh",
+        "high"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.9730000000000001,
+      "price_output_per_mtok": 3.0580000000000003
     },
     {
       "model": "glm-5.1",
@@ -233,7 +422,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-5.1"
+      "source": "https://openrouter.ai/z-ai/glm-5.1",
+      "openrouter_id": "z-ai/glm-5.1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.966,
+      "price_output_per_mtok": 3.036
     },
     {
       "model": "mimo-v2.5-pro",
@@ -245,7 +440,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+      "source": "https://openrouter.ai/xiaomi/mimo-v2.5-pro",
+      "openrouter_id": "xiaomi/mimo-v2.5-pro",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.435,
+      "price_output_per_mtok": 0.87
     },
     {
       "model": "claude-sonnet-5-thinking",
@@ -257,7 +458,19 @@
       "launch_num": 2026.417,
       "end": "2026-07?",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/anthropic/claude-sonnet-5"
+      "source": "https://openrouter.ai/anthropic/claude-sonnet-5",
+      "openrouter_id": "anthropic/claude-sonnet-5",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 2.0,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "claude-sonnet-5-high",
@@ -269,7 +482,19 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/anthropic/claude-sonnet-5"
+      "source": "https://openrouter.ai/anthropic/claude-sonnet-5",
+      "openrouter_id": "anthropic/claude-sonnet-5",
+      "supported_efforts": [
+        "max",
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 2.0,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "qwen3.7-plus",
@@ -281,7 +506,13 @@
       "launch_num": 2026.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.7-plus"
+      "source": "https://openrouter.ai/qwen/qwen3.7-plus",
+      "openrouter_id": "qwen/qwen3.7-plus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.32,
+      "price_output_per_mtok": 1.28
     },
     {
       "model": "deepseek-v4-pro",
@@ -293,7 +524,16 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      "source": "https://openrouter.ai/deepseek/deepseek-v4-pro",
+      "openrouter_id": "deepseek/deepseek-v4-pro",
+      "supported_efforts": [
+        "xhigh",
+        "high"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.435,
+      "price_output_per_mtok": 0.87
     },
     {
       "model": "deepseek-v4-pro-thinking",
@@ -305,7 +545,16 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v4-pro"
+      "source": "https://openrouter.ai/deepseek/deepseek-v4-pro",
+      "openrouter_id": "deepseek/deepseek-v4-pro",
+      "supported_efforts": [
+        "xhigh",
+        "high"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.435,
+      "price_output_per_mtok": 0.87
     },
     {
       "model": "qwen3.6-max-preview",
@@ -317,7 +566,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.6-max-preview"
+      "source": "https://openrouter.ai/qwen/qwen3.6-max-preview",
+      "openrouter_id": "qwen/qwen3.6-max-preview",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.04,
+      "price_output_per_mtok": 6.24
     },
     {
       "model": "kimi-k2.6",
@@ -329,7 +584,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2.6"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2.6",
+      "openrouter_id": "moonshotai/kimi-k2.6",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.684,
+      "price_output_per_mtok": 3.42
     },
     {
       "model": "gemma-4-31b",
@@ -341,7 +602,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-4-31b-it"
+      "source": "https://openrouter.ai/google/gemma-4-31b-it",
+      "openrouter_id": "google/gemma-4-31b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.22,
+      "price_output_per_mtok": 0.55
     },
     {
       "model": "minimax-m3",
@@ -353,7 +620,13 @@
       "launch_num": 2026.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m3"
+      "source": "https://openrouter.ai/minimax/minimax-m3",
+      "openrouter_id": "minimax/minimax-m3",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 1.2
     },
     {
       "model": "grok-4.3",
@@ -365,7 +638,18 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-4.3"
+      "source": "https://openrouter.ai/x-ai/grok-4.3",
+      "openrouter_id": "x-ai/grok-4.3",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "low",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "qwen3.6-plus",
@@ -377,7 +661,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.6-plus"
+      "source": "https://openrouter.ai/qwen/qwen3.6-plus",
+      "openrouter_id": "qwen/qwen3.6-plus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.325,
+      "price_output_per_mtok": 1.95
     },
     {
       "model": "inkling",
@@ -389,7 +679,20 @@
       "launch_num": 2026.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/thinkingmachines/inkling"
+      "source": "https://openrouter.ai/thinkingmachines/inkling",
+      "openrouter_id": "thinkingmachines/inkling",
+      "supported_efforts": [
+        "max",
+        "high",
+        "medium",
+        "low",
+        "minimal",
+        "none"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.0,
+      "price_output_per_mtok": 4.05
     },
     {
       "model": "glm-5v-turbo",
@@ -401,7 +704,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-5v-turbo"
+      "source": "https://openrouter.ai/z-ai/glm-5v-turbo",
+      "openrouter_id": "z-ai/glm-5v-turbo",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.2,
+      "price_output_per_mtok": 4.0
     },
     {
       "model": "deepseek-v4-flash-thinking",
@@ -413,7 +722,16 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      "source": "https://openrouter.ai/deepseek/deepseek-v4-flash",
+      "openrouter_id": "deepseek/deepseek-v4-flash",
+      "supported_efforts": [
+        "xhigh",
+        "high"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.098,
+      "price_output_per_mtok": 0.196
     },
     {
       "model": "gemma-4-26b-a4b",
@@ -425,7 +743,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+      "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it",
+      "openrouter_id": "google/gemma-4-26b-a4b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.07,
+      "price_output_per_mtok": 0.33999999999999997
     },
     {
       "model": "deepseek-v4-flash",
@@ -437,7 +761,16 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v4-flash"
+      "source": "https://openrouter.ai/deepseek/deepseek-v4-flash",
+      "openrouter_id": "deepseek/deepseek-v4-flash",
+      "supported_efforts": [
+        "xhigh",
+        "high"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.098,
+      "price_output_per_mtok": 0.196
     },
     {
       "model": "mimo-v2.5",
@@ -449,7 +782,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/xiaomi/mimo-v2.5"
+      "source": "https://openrouter.ai/xiaomi/mimo-v2.5",
+      "openrouter_id": "xiaomi/mimo-v2.5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.14,
+      "price_output_per_mtok": 0.28
     },
     {
       "model": "mistral-medium-3.5",
@@ -461,7 +800,16 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/mistralai/mistral-medium-3-5"
+      "source": "https://openrouter.ai/mistralai/mistral-medium-3-5",
+      "openrouter_id": "mistralai/mistral-medium-3-5",
+      "supported_efforts": [
+        "high",
+        "none"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.5,
+      "price_output_per_mtok": 7.5
     },
     {
       "model": "hunyuan-hy3-preview",
@@ -473,7 +821,17 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/tencent/hy3-preview"
+      "source": "https://openrouter.ai/tencent/hy3-preview",
+      "openrouter_id": "tencent/hy3-preview",
+      "supported_efforts": [
+        "high",
+        "low",
+        "none"
+      ],
+      "default_effort": "high",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.063,
+      "price_output_per_mtok": 0.21
     },
     {
       "model": "trinity-large-preview",
@@ -485,7 +843,13 @@
       "launch_num": 2026.0,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/arcee-ai/trinity-large-preview"
+      "source": "https://openrouter.ai/arcee-ai/trinity-large-preview",
+      "openrouter_id": "arcee-ai/trinity-large-preview",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "trinity-large-thinking",
@@ -497,7 +861,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/arcee-ai/trinity-large-thinking"
+      "source": "https://openrouter.ai/arcee-ai/trinity-large-thinking",
+      "openrouter_id": "arcee-ai/trinity-large-thinking",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 0.7999999999999999
     },
     {
       "model": "granite-4.1-8b",
@@ -509,7 +879,13 @@
       "launch_num": 2026.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/ibm-granite/granite-4.1-8b"
+      "source": "https://openrouter.ai/ibm-granite/granite-4.1-8b",
+      "openrouter_id": "ibm-granite/granite-4.1-8b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.049999999999999996,
+      "price_output_per_mtok": 0.09999999999999999
     },
     {
       "model": "gpt-5.4-high (codex-harness)",
@@ -521,7 +897,19 @@
       "launch_num": 2026.167,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/openai/gpt-5.4"
+      "source": "https://openrouter.ai/openai/gpt-5.4",
+      "openrouter_id": "openai/gpt-5.4",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 2.5,
+      "price_output_per_mtok": 15.0
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -533,7 +921,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-3-pro",
@@ -545,7 +939,13 @@
       "launch_num": 2025.917,
       "end": "2026-03-09",
       "end_num": 2026.167,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.4-medium (codex-harness)",
@@ -557,7 +957,19 @@
       "launch_num": 2026.167,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/openai/gpt-5.4"
+      "source": "https://openrouter.ai/openai/gpt-5.4",
+      "openrouter_id": "openai/gpt-5.4",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 2.5,
+      "price_output_per_mtok": 15.0
     },
     {
       "model": "gpt-5.3-codex (codex-harness)",
@@ -569,7 +981,19 @@
       "launch_num": 2026.083,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/openai/gpt-5.3-codex"
+      "source": "https://openrouter.ai/openai/gpt-5.3-codex",
+      "openrouter_id": "openai/gpt-5.3-codex",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.75,
+      "price_output_per_mtok": 14.0
     },
     {
       "model": "gpt-5-medium",
@@ -581,7 +1005,18 @@
       "launch_num": 2025.583,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/openai/gpt-5"
+      "source": "https://openrouter.ai/openai/gpt-5",
+      "openrouter_id": "openai/gpt-5",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "gpt-5.1-medium",
@@ -593,7 +1028,18 @@
       "launch_num": 2025.833,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/openai/gpt-5.1"
+      "source": "https://openrouter.ai/openai/gpt-5.1",
+      "openrouter_id": "openai/gpt-5.1",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "none",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "grok-4.20-beta-0309-reasoning",
@@ -605,7 +1051,13 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-4.20"
+      "source": "https://openrouter.ai/x-ai/grok-4.20",
+      "openrouter_id": "x-ai/grok-4.20",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "gpt-5.2-codex",
@@ -617,7 +1069,18 @@
       "launch_num": 2026.0,
       "end": "2026-07-23",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/openai/gpt-5.2-codex"
+      "source": "https://openrouter.ai/openai/gpt-5.2-codex",
+      "openrouter_id": "openai/gpt-5.2-codex",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.75,
+      "price_output_per_mtok": 14.0
     },
     {
       "model": "gpt-5.1-codex",
@@ -629,7 +1092,17 @@
       "launch_num": 2025.833,
       "end": "2026-07-23",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/openai/gpt-5.1-codex"
+      "source": "https://openrouter.ai/openai/gpt-5.1-codex",
+      "openrouter_id": "openai/gpt-5.1-codex",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "gpt-5.1-codex-mini",
@@ -641,7 +1114,17 @@
       "launch_num": 2025.833,
       "end": "2026-07-23",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/openai/gpt-5.1-codex-mini"
+      "source": "https://openrouter.ai/openai/gpt-5.1-codex-mini",
+      "openrouter_id": "openai/gpt-5.1-codex-mini",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 2.0
     },
     {
       "model": "devstral-2",
@@ -653,7 +1136,13 @@
       "launch_num": 2025.667,
       "end": "2026-07?",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/mistralai/devstral-2512"
+      "source": "https://openrouter.ai/mistralai/devstral-2512",
+      "openrouter_id": "mistralai/devstral-2512",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.39999999999999997,
+      "price_output_per_mtok": 2.0
     },
     {
       "model": "grok-code-fast-1",
@@ -665,7 +1154,13 @@
       "launch_num": 2025.583,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/x-ai/grok-code-fast-1"
+      "source": "https://openrouter.ai/x-ai/grok-code-fast-1",
+      "openrouter_id": "x-ai/grok-code-fast-1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "devstral-medium-2507",
@@ -677,7 +1172,13 @@
       "launch_num": 2025.5,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/mistralai/devstral-medium"
+      "source": "https://openrouter.ai/mistralai/devstral-medium",
+      "openrouter_id": "mistralai/devstral-medium",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-4.20-multi-agent-beta-0309",
@@ -689,7 +1190,18 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-4.20-multi-agent"
+      "source": "https://openrouter.ai/x-ai/grok-4.20-multi-agent",
+      "openrouter_id": "x-ai/grok-4.20-multi-agent",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "grok-4.1-thinking",
@@ -701,7 +1213,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://docs.x.ai/developers/models"
+      "source": "https://docs.x.ai/developers/models",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-4.20-beta1",
@@ -713,7 +1231,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://docs.x.ai/developers/models"
+      "source": "https://docs.x.ai/developers/models",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-3-flash",
@@ -725,7 +1249,18 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemini-3-flash-preview"
+      "source": "https://openrouter.ai/google/gemini-3-flash-preview",
+      "openrouter_id": "google/gemini-3-flash-preview",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 3.0
     },
     {
       "model": "claude-opus-4-5-20251101-thinking-32k",
@@ -737,7 +1272,13 @@
       "launch_num": 2025.833,
       "end": "2026-11-24",
       "end_num": 2026.833,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-5-20251101",
@@ -749,7 +1290,13 @@
       "launch_num": 2025.833,
       "end": "2026-11-24",
       "end_num": 2026.833,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.4-high",
@@ -761,7 +1308,13 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.2-chat-latest-20260210",
@@ -773,7 +1326,13 @@
       "launch_num": 2026.083,
       "end": "2026-08-10",
       "end_num": 2026.583,
-      "source": "https://openrouter.ai/openai/gpt-5.2-chat"
+      "source": "https://openrouter.ai/openai/gpt-5.2-chat",
+      "openrouter_id": "openai/gpt-5.2-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 1.75,
+      "price_output_per_mtok": 14.0
     },
     {
       "model": "grok-4.1",
@@ -785,7 +1344,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://docs.x.ai/developers/models"
+      "source": "https://docs.x.ai/developers/models",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-3-flash (thinking-minimal)",
@@ -797,7 +1362,18 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemini-3-flash-preview"
+      "source": "https://openrouter.ai/google/gemini-3-flash-preview",
+      "openrouter_id": "google/gemini-3-flash-preview",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "minimal"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 3.0
     },
     {
       "model": "gpt-5.3-chat-latest",
@@ -809,7 +1385,13 @@
       "launch_num": 2026.167,
       "end": "2026-08-10",
       "end_num": 2026.583,
-      "source": "https://openrouter.ai/openai/gpt-5.3-chat"
+      "source": "https://openrouter.ai/openai/gpt-5.3-chat",
+      "openrouter_id": "openai/gpt-5.3-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 1.75,
+      "price_output_per_mtok": 14.0
     },
     {
       "model": "gpt-5.1-high",
@@ -821,7 +1403,18 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.1"
+      "source": "https://openrouter.ai/openai/gpt-5.1",
+      "openrouter_id": "openai/gpt-5.1",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "none",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "gemini-2.5-pro-preview-06-05",
@@ -833,7 +1426,13 @@
       "launch_num": 2025.417,
       "end": "2025-12-02",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.4-mini-high",
@@ -845,7 +1444,19 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.4-mini"
+      "source": "https://openrouter.ai/openai/gpt-5.4-mini",
+      "openrouter_id": "openai/gpt-5.4-mini",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.75,
+      "price_output_per_mtok": 4.5
     },
     {
       "model": "ernie-5.0-0110",
@@ -857,7 +1468,13 @@
       "launch_num": 2026.0,
       "end": null,
       "end_num": null,
-      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview"
+      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.5-pro",
@@ -869,7 +1486,13 @@
       "launch_num": 2025.75,
       "end": "2026-06-17",
       "end_num": 2026.417,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-1-20250805-thinking-16k",
@@ -881,7 +1504,13 @@
       "launch_num": 2025.583,
       "end": "2026-08-05",
       "end_num": 2026.583,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.5-pro-preview-05-06",
@@ -893,7 +1522,13 @@
       "launch_num": 2025.333,
       "end": "2025-12-02",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.4",
@@ -905,7 +1540,13 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
@@ -917,7 +1558,13 @@
       "launch_num": 2025.667,
       "end": "2026-09-29",
       "end_num": 2026.667,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-sonnet-4-6",
@@ -929,7 +1576,13 @@
       "launch_num": 2026.083,
       "end": "2027-02-17",
       "end_num": 2027.083,
-      "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+      "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "ernie-5.0-preview-1203",
@@ -941,7 +1594,13 @@
       "launch_num": 2025.917,
       "end": "2026-01",
       "end_num": 2026.0,
-      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview"
+      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "kimi-k2.5-thinking",
@@ -953,7 +1612,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2-thinking"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2-thinking",
+      "openrouter_id": "moonshotai/kimi-k2-thinking",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "glm-5",
@@ -965,7 +1630,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-5"
+      "source": "https://openrouter.ai/z-ai/glm-5",
+      "openrouter_id": "z-ai/glm-5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.95,
+      "price_output_per_mtok": 2.5500000000000003
     },
     {
       "model": "mimo-v2-pro",
@@ -977,7 +1648,13 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/xiaomi/mimo-v2-pro"
+      "source": "https://openrouter.ai/xiaomi/mimo-v2-pro",
+      "openrouter_id": "xiaomi/mimo-v2-pro",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4.5-preview-2025-02-27",
@@ -989,7 +1666,13 @@
       "launch_num": 2025.083,
       "end": "2025-07-14",
       "end_num": 2025.5,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "o3-2025-04-16",
@@ -1001,7 +1684,13 @@
       "launch_num": 2025.25,
       "end": "2026-12-11",
       "end_num": 2026.917,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.2-high",
@@ -1013,7 +1702,19 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.2"
+      "source": "https://openrouter.ai/openai/gpt-5.2",
+      "openrouter_id": "openai/gpt-5.2",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.75,
+      "price_output_per_mtok": 14.0
     },
     {
       "model": "chatgpt-4o-latest-20250326",
@@ -1025,7 +1726,13 @@
       "launch_num": 2025.167,
       "end": "2026-02-17",
       "end_num": 2026.083,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3.5-397b-a17b",
@@ -1037,7 +1744,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.5-397b-a17b"
+      "source": "https://openrouter.ai/qwen/qwen3.5-397b-a17b",
+      "openrouter_id": "qwen/qwen3.5-397b-a17b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.39,
+      "price_output_per_mtok": 2.34
     },
     {
       "model": "gpt-5.1",
@@ -1049,7 +1762,18 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.1"
+      "source": "https://openrouter.ai/openai/gpt-5.1",
+      "openrouter_id": "openai/gpt-5.1",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "none",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "claude-sonnet-4-5-20250929",
@@ -1061,7 +1785,13 @@
       "launch_num": 2025.667,
       "end": "2026-09-29",
       "end_num": 2026.667,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4.7",
@@ -1073,7 +1803,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.7"
+      "source": "https://openrouter.ai/z-ai/glm-4.7",
+      "openrouter_id": "z-ai/glm-4.7",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.39999999999999997,
+      "price_output_per_mtok": 1.75
     },
     {
       "model": "gpt-5-high",
@@ -1085,7 +1821,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-1-20250805",
@@ -1097,7 +1839,13 @@
       "launch_num": 2025.583,
       "end": "2026-08-05",
       "end_num": 2026.583,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-4-1-fast-reasoning",
@@ -1109,7 +1857,13 @@
       "launch_num": 2025.833,
       "end": "2026-05-15",
       "end_num": 2026.333,
-      "source": "https://openrouter.ai/x-ai/grok-4.1-fast"
+      "source": "https://openrouter.ai/x-ai/grok-4.1-fast",
+      "openrouter_id": "x-ai/grok-4.1-fast",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5.2",
@@ -1121,7 +1875,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "ernie-5.0-preview-1103",
@@ -1133,7 +1893,13 @@
       "launch_num": 2025.833,
       "end": "2025-12",
       "end_num": 2025.917,
-      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview"
+      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "kimi-k2-thinking-turbo",
@@ -1145,7 +1911,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2-thinking"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2-thinking",
+      "openrouter_id": "moonshotai/kimi-k2-thinking",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "qwen3-max-preview",
@@ -1157,7 +1929,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-max"
+      "source": "https://openrouter.ai/qwen/qwen3-max",
+      "openrouter_id": "qwen/qwen3-max",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.78,
+      "price_output_per_mtok": 3.9
     },
     {
       "model": "kimi-k2.5-instant",
@@ -1169,7 +1947,13 @@
       "launch_num": 2026.0,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2.5"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2.5",
+      "openrouter_id": "moonshotai/kimi-k2.5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.5700000000000001,
+      "price_output_per_mtok": 2.8499999999999996
     },
     {
       "model": "gpt-5-chat",
@@ -1181,7 +1965,13 @@
       "launch_num": 2025.583,
       "end": "2026-07-23",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/openai/gpt-5-chat"
+      "source": "https://openrouter.ai/openai/gpt-5-chat",
+      "openrouter_id": "openai/gpt-5-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 1.25,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "qwen3-max-2025-09-23",
@@ -1193,7 +1983,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-max"
+      "source": "https://openrouter.ai/qwen/qwen3-max",
+      "openrouter_id": "qwen/qwen3-max",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.78,
+      "price_output_per_mtok": 3.9
     },
     {
       "model": "gemini-3.1-flash-lite-preview",
@@ -1205,7 +2001,13 @@
       "launch_num": 2026.083,
       "end": "2026-05-25",
       "end_num": 2026.333,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4.6",
@@ -1217,7 +2019,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.6"
+      "source": "https://openrouter.ai/z-ai/glm-4.6",
+      "openrouter_id": "z-ai/glm-4.6",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 2.0
     },
     {
       "model": "grok-4-fast",
@@ -1229,7 +2037,13 @@
       "launch_num": 2025.667,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/x-ai/grok-4-fast"
+      "source": "https://openrouter.ai/x-ai/grok-4-fast",
+      "openrouter_id": "x-ai/grok-4-fast",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.5-flash-preview-05-20",
@@ -1241,7 +2055,13 @@
       "launch_num": 2025.333,
       "end": "2025-11-18",
       "end_num": 2025.833,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v3.2-exp-thinking",
@@ -1253,7 +2073,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.2-exp"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.2-exp",
+      "openrouter_id": "deepseek/deepseek-v3.2-exp",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.27,
+      "price_output_per_mtok": 0.41
     },
     {
       "model": "claude-opus-4-20250514-thinking-16k",
@@ -1265,7 +2091,13 @@
       "launch_num": 2025.5,
       "end": "2026-06-15",
       "end_num": 2026.417,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3-vl-235b-a22b-instruct",
@@ -1277,7 +2109,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct"
+      "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-instruct",
+      "openrouter_id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.21,
+      "price_output_per_mtok": 1.9
     },
     {
       "model": "qwen3-235b-a22b-instruct-2507",
@@ -1289,7 +2127,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507"
+      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507",
+      "openrouter_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 3.0
     },
     {
       "model": "deepseek-v3.2-thinking",
@@ -1301,7 +2145,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.2"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.2",
+      "openrouter_id": "deepseek/deepseek-v3.2",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.26899999999999996,
+      "price_output_per_mtok": 0.39999999999999997
     },
     {
       "model": "grok-4-fast-chat",
@@ -1313,7 +2163,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-4-fast"
+      "source": "https://openrouter.ai/x-ai/grok-4-fast",
+      "openrouter_id": "x-ai/grok-4-fast",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v3.2",
@@ -1325,7 +2181,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.2"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.2",
+      "openrouter_id": "deepseek/deepseek-v3.2",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.26899999999999996,
+      "price_output_per_mtok": 0.39999999999999997
     },
     {
       "model": "kimi-k2-0905-preview",
@@ -1337,7 +2199,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2-0905"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2-0905",
+      "openrouter_id": "moonshotai/kimi-k2-0905",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "deepseek-r1-0528",
@@ -1349,7 +2217,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-r1-0528"
+      "source": "https://openrouter.ai/deepseek/deepseek-r1-0528",
+      "openrouter_id": "deepseek/deepseek-r1-0528",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 2.1500000000000004
     },
     {
       "model": "deepseek-v3.1",
@@ -1361,7 +2235,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1"
+      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
+      "openrouter_id": "deepseek/deepseek-chat-v3.1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 0.95
     },
     {
       "model": "ernie-5.0-preview-1022",
@@ -1373,7 +2253,13 @@
       "launch_num": 2025.75,
       "end": "2025-11",
       "end_num": 2025.833,
-      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview"
+      "source": "https://artificialanalysis.ai/models/ernie-5-0-thinking-preview",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v3.1-thinking",
@@ -1385,7 +2271,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1"
+      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3.1",
+      "openrouter_id": "deepseek/deepseek-chat-v3.1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 0.95
     },
     {
       "model": "kimi-k2-0711-preview",
@@ -1397,7 +2289,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/moonshotai/kimi-k2"
+      "source": "https://openrouter.ai/moonshotai/kimi-k2",
+      "openrouter_id": "moonshotai/kimi-k2",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.5700000000000001,
+      "price_output_per_mtok": 2.3
     },
     {
       "model": "deepseek-v3.1-terminus",
@@ -1409,7 +2307,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.1-terminus"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.1-terminus",
+      "openrouter_id": "deepseek/deepseek-v3.1-terminus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.27,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "deepseek-v3.1-terminus-thinking",
@@ -1421,7 +2325,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.1-terminus"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.1-terminus",
+      "openrouter_id": "deepseek/deepseek-v3.1-terminus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.27,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "grok-4-0709",
@@ -1433,7 +2343,13 @@
       "launch_num": 2025.5,
       "end": "2026-05-15",
       "end_num": 2026.333,
-      "source": "https://openrouter.ai/x-ai/grok-4"
+      "source": "https://openrouter.ai/x-ai/grok-4",
+      "openrouter_id": "x-ai/grok-4",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3.5-122b-a10b",
@@ -1445,7 +2361,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.5-122b-a10b"
+      "source": "https://openrouter.ai/qwen/qwen3.5-122b-a10b",
+      "openrouter_id": "qwen/qwen3.5-122b-a10b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 2.08
     },
     {
       "model": "mistral-large-3",
@@ -1457,7 +2379,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/mistralai/mistral-large-2512"
+      "source": "https://openrouter.ai/mistralai/mistral-large-2512",
+      "openrouter_id": "mistralai/mistral-large-2512",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 1.5
     },
     {
       "model": "gpt-4.1-2025-04-14",
@@ -1469,7 +2397,13 @@
       "launch_num": 2025.25,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-opus-4-20250514",
@@ -1481,7 +2415,13 @@
       "launch_num": 2025.333,
       "end": "2026-06-15",
       "end_num": 2026.417,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-3-preview-02-24",
@@ -1493,7 +2433,13 @@
       "launch_num": 2025.083,
       "end": null,
       "end_num": null,
-      "source": "https://x.ai/api"
+      "source": "https://x.ai/api",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v3.2-exp",
@@ -1505,7 +2451,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-v3.2-exp"
+      "source": "https://openrouter.ai/deepseek/deepseek-v3.2-exp",
+      "openrouter_id": "deepseek/deepseek-v3.2-exp",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.27,
+      "price_output_per_mtok": 0.41
     },
     {
       "model": "gemini-2.5-flash",
@@ -1517,7 +2469,13 @@
       "launch_num": 2025.5,
       "end": "2026-06-17",
       "end_num": 2026.417,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-medium-2508",
@@ -1529,7 +2487,13 @@
       "launch_num": 2025.75,
       "end": "2026-08-31",
       "end_num": 2026.583,
-      "source": "https://openrouter.ai/mistralai/magistral-medium-2506"
+      "source": "https://openrouter.ai/mistralai/magistral-medium-2506",
+      "openrouter_id": "mistralai/magistral-medium-2506",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4.5",
@@ -1541,7 +2505,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.5"
+      "source": "https://openrouter.ai/z-ai/glm-4.5",
+      "openrouter_id": "z-ai/glm-4.5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 2.2
     },
     {
       "model": "gemini-2.5-flash-preview-09-2025",
@@ -1553,7 +2523,13 @@
       "launch_num": 2025.75,
       "end": "2026-02-17",
       "end_num": 2026.083,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "minimax-m2.7",
@@ -1565,7 +2541,13 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m2.7"
+      "source": "https://openrouter.ai/minimax/minimax-m2.7",
+      "openrouter_id": "minimax/minimax-m2.7",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "gpt-5.4-nano-high",
@@ -1577,7 +2559,19 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-5.4-nano"
+      "source": "https://openrouter.ai/openai/gpt-5.4-nano",
+      "openrouter_id": "openai/gpt-5.4-nano",
+      "supported_efforts": [
+        "xhigh",
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.19999999999999998,
+      "price_output_per_mtok": 1.25
     },
     {
       "model": "qwen3-next-80b-a3b-instruct",
@@ -1589,7 +2583,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct"
+      "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct",
+      "openrouter_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.09999999999999999,
+      "price_output_per_mtok": 1.1
     },
     {
       "model": "o1-2024-12-17",
@@ -1601,7 +2601,13 @@
       "launch_num": 2024.917,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openrouter.ai/openai/o1"
+      "source": "https://openrouter.ai/openai/o1",
+      "openrouter_id": "openai/o1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 15.0,
+      "price_output_per_mtok": 60.0
     },
     {
       "model": "longcat-flash-chat",
@@ -1613,7 +2619,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meituan/longcat-flash-chat"
+      "source": "https://openrouter.ai/meituan/longcat-flash-chat",
+      "openrouter_id": "meituan/longcat-flash-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-sonnet-4-20250514-thinking-32k",
@@ -1625,7 +2637,13 @@
       "launch_num": 2025.5,
       "end": "2026-06-15",
       "end_num": 2026.417,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3.5-27b",
@@ -1637,7 +2655,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.5-27b"
+      "source": "https://openrouter.ai/qwen/qwen3.5-27b",
+      "openrouter_id": "qwen/qwen3.5-27b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 2.6
     },
     {
       "model": "qwen3-235b-a22b-no-thinking",
@@ -1649,7 +2673,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-2507"
+      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-2507",
+      "openrouter_id": "qwen/qwen3-235b-a22b-2507",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.09,
+      "price_output_per_mtok": 0.55
     },
     {
       "model": "claude-haiku-4-5-20251001",
@@ -1661,7 +2691,13 @@
       "launch_num": 2025.75,
       "end": "2026-10-15",
       "end_num": 2026.75,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-4-fast-reasoning",
@@ -1673,7 +2709,13 @@
       "launch_num": 2025.667,
       "end": "2026-05-15",
       "end_num": 2026.333,
-      "source": "https://openrouter.ai/x-ai/grok-4-fast"
+      "source": "https://openrouter.ai/x-ai/grok-4-fast",
+      "openrouter_id": "x-ai/grok-4-fast",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3-235b-a22b-thinking-2507",
@@ -1685,7 +2727,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507"
+      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507",
+      "openrouter_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 3.0
     },
     {
       "model": "gpt-5-mini-high",
@@ -1697,7 +2745,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-r1",
@@ -1709,7 +2763,13 @@
       "launch_num": 2025.0,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-r1"
+      "source": "https://openrouter.ai/deepseek/deepseek-r1",
+      "openrouter_id": "deepseek/deepseek-r1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.7,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "qwen3-vl-235b-a22b-thinking",
@@ -1721,7 +2781,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-thinking"
+      "source": "https://openrouter.ai/qwen/qwen3-vl-235b-a22b-thinking",
+      "openrouter_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 2.6
     },
     {
       "model": "gemini-2.5-flash-preview-04-17",
@@ -1733,7 +2799,13 @@
       "launch_num": 2025.25,
       "end": "2025-05",
       "end_num": 2025.333,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "minimax-m2.5",
@@ -1745,7 +2817,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m2.5"
+      "source": "https://openrouter.ai/minimax/minimax-m2.5",
+      "openrouter_id": "minimax/minimax-m2.5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.15,
+      "price_output_per_mtok": 0.8999999999999999
     },
     {
       "model": "deepseek-v3-0324",
@@ -1757,7 +2835,13 @@
       "launch_num": 2025.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324"
+      "source": "https://openrouter.ai/deepseek/deepseek-chat-v3-0324",
+      "openrouter_id": "deepseek/deepseek-chat-v3-0324",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.27,
+      "price_output_per_mtok": 1.12
     },
     {
       "model": "mimo-v2-flash (non-thinking)",
@@ -1769,7 +2853,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/xiaomi/mimo-v2-flash"
+      "source": "https://openrouter.ai/xiaomi/mimo-v2-flash",
+      "openrouter_id": "xiaomi/mimo-v2-flash",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "o4-mini-2025-04-16",
@@ -1781,7 +2871,13 @@
       "launch_num": 2025.25,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-sonnet-4-20250514",
@@ -1793,7 +2889,13 @@
       "launch_num": 2025.333,
       "end": "2026-06-15",
       "end_num": 2026.417,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "o1-preview",
@@ -1805,7 +2907,13 @@
       "launch_num": 2024.667,
       "end": "2025-07-28",
       "end_num": 2025.5,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-7-sonnet-20250219-thinking-32k",
@@ -1817,7 +2925,13 @@
       "launch_num": 2025.167,
       "end": "2026-02-19",
       "end_num": 2026.083,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3.5-35b-a3b",
@@ -1829,7 +2943,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3.5-35b-a3b"
+      "source": "https://openrouter.ai/qwen/qwen3.5-35b-a3b",
+      "openrouter_id": "qwen/qwen3.5-35b-a3b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.14,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "qwen3-30b-a3b-instruct-2507",
@@ -1841,7 +2961,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507"
+      "source": "https://openrouter.ai/qwen/qwen3-30b-a3b-instruct-2507",
+      "openrouter_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.09999999999999999,
+      "price_output_per_mtok": 0.3
     },
     {
       "model": "qwen3-coder-480b-a35b-instruct",
@@ -1853,7 +2979,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-coder"
+      "source": "https://openrouter.ai/qwen/qwen3-coder",
+      "openrouter_id": "qwen/qwen3-coder",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "mistral-medium-2505",
@@ -1865,7 +2997,13 @@
       "launch_num": 2025.333,
       "end": "2026-08-31",
       "end_num": 2026.583,
-      "source": "https://openrouter.ai/mistralai/mistral-medium-3"
+      "source": "https://openrouter.ai/mistralai/mistral-medium-3",
+      "openrouter_id": "mistralai/mistral-medium-3",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.39999999999999997,
+      "price_output_per_mtok": 2.0
     },
     {
       "model": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
@@ -1877,7 +3015,13 @@
       "launch_num": 2025.667,
       "end": "2026-03-31",
       "end_num": 2026.167,
-      "source": "https://openrouter.ai/google/gemini-2.5-flash-lite-preview-09-2025"
+      "source": "https://openrouter.ai/google/gemini-2.5-flash-lite-preview-09-2025",
+      "openrouter_id": "google/gemini-2.5-flash-lite-preview-09-2025",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-pro-exp-02-05",
@@ -1889,7 +3033,13 @@
       "launch_num": 2025.083,
       "end": "2025-03",
       "end_num": 2025.167,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "minimax-m2.1-preview",
@@ -1901,7 +3051,13 @@
       "launch_num": 2026.0,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m2-her"
+      "source": "https://openrouter.ai/minimax/minimax-m2-her",
+      "openrouter_id": "minimax/minimax-m2-her",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 1.2
     },
     {
       "model": "Hunyuan-turbos-20250416",
@@ -1913,7 +3069,13 @@
       "launch_num": 2025.333,
       "end": "2026-04?",
       "end_num": 2026.25,
-      "source": "https://www.omniverse.com.im/discover/model/hunyuan-turbo"
+      "source": "https://www.omniverse.com.im/discover/model/hunyuan-turbo",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4.1-mini-2025-04-14",
@@ -1925,7 +3087,13 @@
       "launch_num": 2025.25,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "step-3.5-flash",
@@ -1937,7 +3105,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/stepfun/step-3.5-flash"
+      "source": "https://openrouter.ai/stepfun/step-3.5-flash",
+      "openrouter_id": "stepfun/step-3.5-flash",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.09999999999999999,
+      "price_output_per_mtok": 0.3
     },
     {
       "model": "gemini-2.5-pro-exp-03-25",
@@ -1949,7 +3123,13 @@
       "launch_num": 2025.167,
       "end": "2025-05",
       "end_num": 2025.333,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.5-flash-lite-preview-09-25-no-thinking",
@@ -1961,7 +3141,13 @@
       "launch_num": 2025.667,
       "end": "2026-03-31",
       "end_num": 2026.167,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.5-flash-lite-preview-06-17-thinking",
@@ -1973,7 +3159,13 @@
       "launch_num": 2025.417,
       "end": "2025-11",
       "end_num": 2025.833,
-      "source": "https://ai.google.dev/gemini-api/docs/changelog"
+      "source": "https://ai.google.dev/gemini-api/docs/changelog",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mimo-v2-flash (thinking)",
@@ -1985,7 +3177,13 @@
       "launch_num": 2026.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/xiaomi/mimo-v2-flash"
+      "source": "https://openrouter.ai/xiaomi/mimo-v2-flash",
+      "openrouter_id": "xiaomi/mimo-v2-flash",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3-235b-a22b",
@@ -1997,7 +3195,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b"
+      "source": "https://openrouter.ai/qwen/qwen3-235b-a22b",
+      "openrouter_id": "qwen/qwen3-235b-a22b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.45499999999999996,
+      "price_output_per_mtok": 1.8199999999999998
     },
     {
       "model": "glm-4.6v",
@@ -2009,7 +3213,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.6v"
+      "source": "https://openrouter.ai/z-ai/glm-4.6v",
+      "openrouter_id": "z-ai/glm-4.6v",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 0.8999999999999999
     },
     {
       "model": "qwen2.5-max",
@@ -2021,7 +3231,13 @@
       "launch_num": 2025.0,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4.5-air",
@@ -2033,7 +3249,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.5"
+      "source": "https://openrouter.ai/z-ai/glm-4.5",
+      "openrouter_id": "z-ai/glm-4.5",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 2.2
     },
     {
       "model": "claude-3-7-sonnet-20250219",
@@ -2045,7 +3267,13 @@
       "launch_num": 2025.083,
       "end": "2026-02-19",
       "end_num": 2026.083,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "nvidia-nemotron-3-super-120b-a12b",
@@ -2057,7 +3285,16 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b"
+      "source": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+      "openrouter_id": "nvidia/nemotron-3-super-120b-a12b",
+      "supported_efforts": [
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.08499999999999999,
+      "price_output_per_mtok": 0.39999999999999997
     },
     {
       "model": "minimax-m1",
@@ -2069,7 +3306,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m1"
+      "source": "https://openrouter.ai/minimax/minimax-m1",
+      "openrouter_id": "minimax/minimax-m1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.55,
+      "price_output_per_mtok": 2.2
     },
     {
       "model": "qwen3-next-80b-a3b-thinking",
@@ -2081,7 +3324,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-thinking"
+      "source": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-thinking",
+      "openrouter_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.0975,
+      "price_output_per_mtok": 0.78
     },
     {
       "model": "claude-3-5-sonnet-20241022",
@@ -2093,7 +3342,13 @@
       "launch_num": 2024.75,
       "end": "2025-10-28",
       "end_num": 2025.75,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-flash-001",
@@ -2105,7 +3360,13 @@
       "launch_num": 2025.083,
       "end": "2026-06-01",
       "end_num": 2026.417,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-3-27b-it",
@@ -2117,7 +3378,13 @@
       "launch_num": 2025.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-3-27b-it"
+      "source": "https://openrouter.ai/google/gemma-3-27b-it",
+      "openrouter_id": "google/gemma-3-27b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.09999999999999999,
+      "price_output_per_mtok": 0.3
     },
     {
       "model": "o3-mini-high",
@@ -2129,7 +3396,13 @@
       "launch_num": 2025.0,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-3-mini-high",
@@ -2141,7 +3414,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-3-mini"
+      "source": "https://openrouter.ai/x-ai/grok-3-mini",
+      "openrouter_id": "x-ai/grok-3-mini",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-3-mini-beta",
@@ -2153,7 +3432,13 @@
       "launch_num": 2025.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-3-mini-beta"
+      "source": "https://openrouter.ai/x-ai/grok-3-mini-beta",
+      "openrouter_id": "x-ai/grok-3-mini-beta",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v3",
@@ -2165,7 +3450,13 @@
       "launch_num": 2024.917,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-small-2506",
@@ -2177,7 +3468,13 @@
       "launch_num": 2025.5,
       "end": "2026-07-31",
       "end_num": 2026.5,
-      "source": "https://openrouter.ai/mistralai/magistral-small-2506"
+      "source": "https://openrouter.ai/mistralai/magistral-small-2506",
+      "openrouter_id": "mistralai/magistral-small-2506",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-flash-lite-preview-02-05",
@@ -2189,7 +3486,13 @@
       "launch_num": 2025.083,
       "end": "2025-12-09",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4.7-flash",
@@ -2201,7 +3504,13 @@
       "launch_num": 2026.0,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.7-flash"
+      "source": "https://openrouter.ai/z-ai/glm-4.7-flash",
+      "openrouter_id": "z-ai/glm-4.7-flash",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.060500000000000005,
+      "price_output_per_mtok": 0.39999999999999997
     },
     {
       "model": "glm-4.5v",
@@ -2213,7 +3522,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/z-ai/glm-4.5v"
+      "source": "https://openrouter.ai/z-ai/glm-4.5v",
+      "openrouter_id": "z-ai/glm-4.5v",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.6,
+      "price_output_per_mtok": 1.7999999999999998
     },
     {
       "model": "gemini-1.5-pro-002",
@@ -2225,7 +3540,13 @@
       "launch_num": 2024.75,
       "end": "2025-09",
       "end_num": 2025.667,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "command-a-03-2025",
@@ -2237,7 +3558,13 @@
       "launch_num": 2025.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/cohere/command-a"
+      "source": "https://openrouter.ai/cohere/command-a",
+      "openrouter_id": "cohere/command-a",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 2.5,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "gpt-oss-120b",
@@ -2249,7 +3576,17 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-oss-120b"
+      "source": "https://openrouter.ai/openai/gpt-oss-120b",
+      "openrouter_id": "openai/gpt-oss-120b",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.037,
+      "price_output_per_mtok": 0.16999999999999998
     },
     {
       "model": "o3-mini",
@@ -2261,7 +3598,13 @@
       "launch_num": 2025.0,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openrouter.ai/openai/o3-mini"
+      "source": "https://openrouter.ai/openai/o3-mini",
+      "openrouter_id": "openai/o3-mini",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 1.1,
+      "price_output_per_mtok": 4.4
     },
     {
       "model": "intellect-3",
@@ -2273,7 +3616,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/prime-intellect/intellect-3"
+      "source": "https://openrouter.ai/prime-intellect/intellect-3",
+      "openrouter_id": "prime-intellect/intellect-3",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "step-3",
@@ -2285,7 +3634,13 @@
       "launch_num": 2025.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/stepfun-ai/step3"
+      "source": "https://openrouter.ai/stepfun-ai/step3",
+      "openrouter_id": "stepfun-ai/step3",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen3-32b",
@@ -2297,7 +3652,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-32b"
+      "source": "https://openrouter.ai/qwen/qwen3-32b",
+      "openrouter_id": "qwen/qwen3-32b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.08,
+      "price_output_per_mtok": 0.28
     },
     {
       "model": "llama-3.1-nemotron-ultra-253b-v1",
@@ -2309,7 +3670,13 @@
       "launch_num": 2025.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1"
+      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "openrouter_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mercury-2",
@@ -2321,7 +3688,18 @@
       "launch_num": 2026.167,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/inception/mercury-2"
+      "source": "https://openrouter.ai/inception/mercury-2",
+      "openrouter_id": "inception/mercury-2",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low",
+        "none"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.25,
+      "price_output_per_mtok": 0.75
     },
     {
       "model": "gpt-4o-2024-05-13",
@@ -2333,7 +3711,13 @@
       "launch_num": 2024.667,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen-plus-0125",
@@ -2345,7 +3729,13 @@
       "launch_num": 2025.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen-plus"
+      "source": "https://openrouter.ai/qwen/qwen-plus",
+      "openrouter_id": "qwen/qwen-plus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 0.78
     },
     {
       "model": "minimax-m2",
@@ -2357,7 +3747,13 @@
       "launch_num": 2025.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/minimax/minimax-m2"
+      "source": "https://openrouter.ai/minimax/minimax-m2",
+      "openrouter_id": "minimax/minimax-m2",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 1.2
     },
     {
       "model": "glm-4-plus-0111",
@@ -2369,7 +3765,13 @@
       "launch_num": 2025.083,
       "end": null,
       "end_num": null,
-      "source": "https://open.bigmodel.cn/pricing"
+      "source": "https://open.bigmodel.cn/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-3-12b-it",
@@ -2381,7 +3783,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-3-12b-it"
+      "source": "https://openrouter.ai/google/gemma-3-12b-it",
+      "openrouter_id": "google/gemma-3-12b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.049999999999999996,
+      "price_output_per_mtok": 0.15
     },
     {
       "model": "chatgpt-4o-latest-20250129",
@@ -2393,7 +3801,13 @@
       "launch_num": 2025.083,
       "end": "2025-03",
       "end_num": 2025.167,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
@@ -2405,7 +3819,13 @@
       "launch_num": 2025.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/llama-3.3-nemotron-super-49b-v1"
+      "source": "https://openrouter.ai/nvidia/llama-3.3-nemotron-super-49b-v1",
+      "openrouter_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-5-sonnet-20240620",
@@ -2417,7 +3837,13 @@
       "launch_num": 2024.417,
       "end": "2025-10-28",
       "end_num": 2025.75,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-5-nano-high",
@@ -2429,7 +3855,13 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-405b-instruct-bf16",
@@ -2441,7 +3873,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-405b"
+      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-405b",
+      "openrouter_id": "models/meta-llama/llama-3.1-405b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "o1-mini",
@@ -2453,7 +3891,13 @@
       "launch_num": 2024.667,
       "end": "2025-10-27",
       "end_num": 2025.75,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "grok-2-2024-08-13",
@@ -2465,7 +3909,13 @@
       "launch_num": 2024.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/x-ai/grok-2"
+      "source": "https://openrouter.ai/x-ai/grok-2",
+      "openrouter_id": "x-ai/grok-2",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "nova-2-lite",
@@ -2477,7 +3927,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/amazon/nova-2-lite-v1"
+      "source": "https://openrouter.ai/amazon/nova-2-lite-v1",
+      "openrouter_id": "amazon/nova-2-lite-v1",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.3,
+      "price_output_per_mtok": 2.5
     },
     {
       "model": "llama-3.1-405b-instruct-fp8",
@@ -2489,7 +3945,13 @@
       "launch_num": 2024.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-3.1-405b-instruct"
+      "source": "https://openrouter.ai/meta-llama/llama-3.1-405b-instruct",
+      "openrouter_id": "meta-llama/llama-3.1-405b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwq-32b",
@@ -2501,7 +3963,13 @@
       "launch_num": 2024.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwq-32b-preview"
+      "source": "https://openrouter.ai/qwen/qwq-32b-preview",
+      "openrouter_id": "qwen/qwq-32b-preview",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4o-2024-08-06",
@@ -2513,7 +3981,13 @@
       "launch_num": 2024.583,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-4-maverick-17b-128e-instruct",
@@ -2525,7 +3999,13 @@
       "launch_num": 2025.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-4-maverick"
+      "source": "https://openrouter.ai/meta-llama/llama-4-maverick",
+      "openrouter_id": "meta-llama/llama-4-maverick",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.19999999999999998,
+      "price_output_per_mtok": 0.7999999999999999
     },
     {
       "model": "qwen3-30b-a3b",
@@ -2537,7 +4017,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen3-30b-a3b"
+      "source": "https://openrouter.ai/qwen/qwen3-30b-a3b",
+      "openrouter_id": "qwen/qwen3-30b-a3b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.13,
+      "price_output_per_mtok": 0.52
     },
     {
       "model": "gpt-4-turbo-2024-04-09",
@@ -2549,7 +4035,13 @@
       "launch_num": 2024.25,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "nvidia-nemotron-3-nano-30b-a3b-bf16",
@@ -2561,7 +4053,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free"
+      "source": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "openrouter_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": false,
+      "price_input_per_mtok": 0.0,
+      "price_output_per_mtok": 0.0
     },
     {
       "model": "llama-4-scout-17b-16e-instruct",
@@ -2573,7 +4071,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-4-scout"
+      "source": "https://openrouter.ai/meta-llama/llama-4-scout",
+      "openrouter_id": "meta-llama/llama-4-scout",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.09999999999999999,
+      "price_output_per_mtok": 0.3
     },
     {
       "model": "gemini-exp-1206",
@@ -2585,7 +4089,13 @@
       "launch_num": 2024.833,
       "end": "2025-07",
       "end_num": 2025.5,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "olmo-3.1-32b-instruct",
@@ -2597,7 +4107,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-instruct"
+      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-instruct",
+      "openrouter_id": "allenai/olmo-3.1-32b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v2.5-1210",
@@ -2609,7 +4125,13 @@
       "launch_num": 2024.917,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-opus-20240229",
@@ -2621,7 +4143,13 @@
       "launch_num": 2024.083,
       "end": "2026-01-05",
       "end_num": 2026.0,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-1.5-pro-001",
@@ -2633,7 +4161,13 @@
       "launch_num": 2024.333,
       "end": "2025-05",
       "end_num": 2025.333,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-5-haiku-20241022",
@@ -2645,7 +4179,13 @@
       "launch_num": 2024.833,
       "end": "2026-02-19",
       "end_num": 2026.083,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4.1-nano-2025-04-14",
@@ -2657,7 +4197,13 @@
       "launch_num": 2025.25,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.3-70b-instruct",
@@ -2669,7 +4215,13 @@
       "launch_num": 2024.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct"
+      "source": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct",
+      "openrouter_id": "meta-llama/llama-3.3-70b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.13,
+      "price_output_per_mtok": 0.39999999999999997
     },
     {
       "model": "chatgpt-4o-latest-20241120",
@@ -2681,7 +4233,13 @@
       "launch_num": 2024.833,
       "end": "2025-02",
       "end_num": 2025.083,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-3n-e4b-it",
@@ -2693,7 +4251,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-3n-e4b-it"
+      "source": "https://openrouter.ai/google/gemma-3n-e4b-it",
+      "openrouter_id": "google/gemma-3n-e4b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.06,
+      "price_output_per_mtok": 0.12
     },
     {
       "model": "gpt-oss-20b",
@@ -2705,7 +4269,17 @@
       "launch_num": 2025.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/openai/gpt-oss-20b"
+      "source": "https://openrouter.ai/openai/gpt-oss-20b",
+      "openrouter_id": "openai/gpt-oss-20b",
+      "supported_efforts": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "default_effort": "medium",
+      "reasoning_mandatory": true,
+      "price_input_per_mtok": 0.03,
+      "price_output_per_mtok": 0.13
     },
     {
       "model": "glm-4-plus",
@@ -2717,7 +4291,13 @@
       "launch_num": 2024.75,
       "end": null,
       "end_num": null,
-      "source": "https://open.bigmodel.cn/pricing"
+      "source": "https://open.bigmodel.cn/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen-max-0919",
@@ -2729,7 +4309,13 @@
       "launch_num": 2024.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen-max"
+      "source": "https://openrouter.ai/qwen/qwen-max",
+      "openrouter_id": "qwen/qwen-max",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4o-mini-2024-07-18",
@@ -2741,7 +4327,13 @@
       "launch_num": 2024.5,
       "end": null,
       "end_num": null,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen2.5-plus-1127",
@@ -2753,7 +4345,13 @@
       "launch_num": 2024.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen-plus"
+      "source": "https://openrouter.ai/qwen/qwen-plus",
+      "openrouter_id": "qwen/qwen-plus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 0.78
     },
     {
       "model": "gpt-4-1106-preview",
@@ -2765,7 +4363,13 @@
       "launch_num": 2023.833,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4-0125-preview",
@@ -2777,7 +4381,13 @@
       "launch_num": 2024.0,
       "end": "2026-03-26",
       "end_num": 2026.167,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-large-2407",
@@ -2789,7 +4399,13 @@
       "launch_num": 2024.5,
       "end": "2025-03",
       "end_num": 2025.167,
-      "source": "https://docs.mistral.ai/getting-started/models/models_overview/"
+      "source": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-1.5-flash-002",
@@ -2801,7 +4417,13 @@
       "launch_num": 2024.75,
       "end": "2025-09",
       "end_num": 2025.667,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "olmo-3-32b-think",
@@ -2813,7 +4435,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-think"
+      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-think",
+      "openrouter_id": "allenai/olmo-3.1-32b-think",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-flash-thinking-exp-1219",
@@ -2825,7 +4453,13 @@
       "launch_num": 2024.917,
       "end": "2025-12",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/changelog"
+      "source": "https://ai.google.dev/gemini-api/docs/changelog",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-flash-thinking-exp-01-21",
@@ -2837,7 +4471,13 @@
       "launch_num": 2025.0,
       "end": "2025-12",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/changelog"
+      "source": "https://ai.google.dev/gemini-api/docs/changelog",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mercury",
@@ -2849,7 +4489,13 @@
       "launch_num": 2025.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/inception/mercury"
+      "source": "https://openrouter.ai/inception/mercury",
+      "openrouter_id": "inception/mercury",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v2.5",
@@ -2861,7 +4507,13 @@
       "launch_num": 2024.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/deepseek/deepseek-chat"
+      "source": "https://openrouter.ai/models/deepseek/deepseek-chat",
+      "openrouter_id": "models/deepseek/deepseek-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "magistral-medium-2506",
@@ -2873,7 +4525,13 @@
       "launch_num": 2025.583,
       "end": "2025-11",
       "end_num": 2025.833,
-      "source": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06"
+      "source": "https://docs.mistral.ai/models/magistral-medium-1-0-25-06",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-large-2411",
@@ -2885,7 +4543,13 @@
       "launch_num": 2024.833,
       "end": "2026-05-31",
       "end_num": 2026.333,
-      "source": "https://openrouter.ai/mistralai/mistral-large-2411"
+      "source": "https://openrouter.ai/mistralai/mistral-large-2411",
+      "openrouter_id": "mistralai/mistral-large-2411",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-3-4b-it",
@@ -2897,7 +4561,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-3-4b-it"
+      "source": "https://openrouter.ai/google/gemma-3-4b-it",
+      "openrouter_id": "google/gemma-3-4b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.049999999999999996,
+      "price_output_per_mtok": 0.09999999999999999
     },
     {
       "model": "mistral-small-3.1-24b-instruct-2503",
@@ -2909,7 +4579,13 @@
       "launch_num": 2025.333,
       "end": "2025-11",
       "end_num": 2025.833,
-      "source": "https://docs.mistral.ai/models/mistral-small-3-1-25-03"
+      "source": "https://docs.mistral.ai/models/mistral-small-3-1-25-03",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen2.5-72b-instruct",
@@ -2921,7 +4597,13 @@
       "launch_num": 2024.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/qwen/qwen-2.5-72b-instruct"
+      "source": "https://openrouter.ai/models/qwen/qwen-2.5-72b-instruct",
+      "openrouter_id": "models/qwen/qwen-2.5-72b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-2.0-flash-exp",
@@ -2933,7 +4615,13 @@
       "launch_num": 2024.917,
       "end": "2025-03",
       "end_num": 2025.167,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-nemotron-70b-instruct",
@@ -2945,7 +4633,13 @@
       "launch_num": 2024.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-70b-instruct"
+      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-70b-instruct",
+      "openrouter_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-70b-instruct",
@@ -2957,7 +4651,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct"
+      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-70b-instruct",
+      "openrouter_id": "models/meta-llama/llama-3.1-70b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "chatgpt-4o-latest-20240903",
@@ -2969,7 +4669,13 @@
       "launch_num": 2024.583,
       "end": "2024-11",
       "end_num": 2024.833,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "amazon-nova-pro-v1.0",
@@ -2981,7 +4687,13 @@
       "launch_num": 2024.833,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "jamba-1.5-large",
@@ -2993,7 +4705,13 @@
       "launch_num": 2024.583,
       "end": "2025-05-06",
       "end_num": 2025.333,
-      "source": "https://openrouter.ai/models/ai21/jamba-1-5-large"
+      "source": "https://openrouter.ai/models/ai21/jamba-1-5-large",
+      "openrouter_id": "models/ai21/jamba-1-5-large",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-tulu-3-70b",
@@ -3005,7 +4723,13 @@
       "launch_num": 2025.083,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/allenai/llama-3.1-tulu-3-405b"
+      "source": "https://openrouter.ai/allenai/llama-3.1-tulu-3-405b",
+      "openrouter_id": "allenai/llama-3.1-tulu-3-405b",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "ibm-granite-h-small",
@@ -3017,7 +4741,13 @@
       "launch_num": 2025.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/ibm-granite/granite-4.0-h-micro"
+      "source": "https://openrouter.ai/ibm-granite/granite-4.0-h-micro",
+      "openrouter_id": "ibm-granite/granite-4.0-h-micro",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.017,
+      "price_output_per_mtok": 0.112
     },
     {
       "model": "gemma-2-27b-it",
@@ -3029,7 +4759,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/google/gemma-2-27b-it"
+      "source": "https://openrouter.ai/models/google/gemma-2-27b-it",
+      "openrouter_id": "models/google/gemma-2-27b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-nemotron-51b-instruct",
@@ -3041,7 +4777,13 @@
       "launch_num": 2024.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-70b-instruct"
+      "source": "https://openrouter.ai/nvidia/llama-3.1-nemotron-70b-instruct",
+      "openrouter_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "olmo-3.1-32b-think",
@@ -3053,7 +4795,13 @@
       "launch_num": 2025.917,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-think"
+      "source": "https://openrouter.ai/allenai/olmo-3.1-32b-think",
+      "openrouter_id": "allenai/olmo-3.1-32b-think",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4-0314",
@@ -3065,7 +4813,13 @@
       "launch_num": 2024.167,
       "end": "2026-03-26",
       "end_num": 2026.167,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-1.5-flash-001",
@@ -3077,7 +4831,13 @@
       "launch_num": 2024.583,
       "end": "2025-05",
       "end_num": 2025.333,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-sonnet-20240229",
@@ -3089,7 +4849,13 @@
       "launch_num": 2024.083,
       "end": "2025-07-21",
       "end_num": 2025.5,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "nemotron-4-340b-instruct",
@@ -3101,7 +4867,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/nvidia/nemotron-4-340b-instruct"
+      "source": "https://openrouter.ai/models/nvidia/nemotron-4-340b-instruct",
+      "openrouter_id": "models/nvidia/nemotron-4-340b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "command-r-plus-08-2024",
@@ -3113,7 +4885,13 @@
       "launch_num": 2024.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/cohere/command-r-plus-08-2024"
+      "source": "https://openrouter.ai/cohere/command-r-plus-08-2024",
+      "openrouter_id": "cohere/command-r-plus-08-2024",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 2.5,
+      "price_output_per_mtok": 10.0
     },
     {
       "model": "llama-3-70b-instruct",
@@ -3125,7 +4903,13 @@
       "launch_num": 2024.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/meta-llama/llama-3-70b-instruct"
+      "source": "https://openrouter.ai/models/meta-llama/llama-3-70b-instruct",
+      "openrouter_id": "models/meta-llama/llama-3-70b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-4-0613",
@@ -3137,7 +4921,13 @@
       "launch_num": 2024.417,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openai.com/api/pricing/"
+      "source": "https://openai.com/api/pricing/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-small-24b-instruct-2501",
@@ -3149,7 +4939,13 @@
       "launch_num": 2025.0,
       "end": "2025-11",
       "end_num": 2025.833,
-      "source": "https://docs.mistral.ai/models/mistral-small-3-0-25-01"
+      "source": "https://docs.mistral.ai/models/mistral-small-3-0-25-01",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "glm-4-0520",
@@ -3161,7 +4957,13 @@
       "launch_num": 2024.333,
       "end": null,
       "end_num": null,
-      "source": "https://open.bigmodel.cn/pricing"
+      "source": "https://open.bigmodel.cn/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-exp-1114",
@@ -3173,7 +4975,13 @@
       "launch_num": 2024.833,
       "end": "2024-12",
       "end_num": 2024.917,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen2.5-coder-32b-instruct",
@@ -3185,7 +4993,13 @@
       "launch_num": 2024.75,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/qwen/qwen-2.5-coder-32b-instruct"
+      "source": "https://openrouter.ai/qwen/qwen-2.5-coder-32b-instruct",
+      "openrouter_id": "qwen/qwen-2.5-coder-32b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.66,
+      "price_output_per_mtok": 1.0
     },
     {
       "model": "gemini-2.0-flash-lite-preview",
@@ -3197,7 +5011,13 @@
       "launch_num": 2025.0,
       "end": "2025-12-09",
       "end_num": 2025.917,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-2-9b-it",
@@ -3209,7 +5029,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/google/gemma-2-9b-it"
+      "source": "https://openrouter.ai/models/google/gemma-2-9b-it",
+      "openrouter_id": "models/google/gemma-2-9b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "command-r-plus",
@@ -3221,7 +5047,13 @@
       "launch_num": 2024.0,
       "end": "2025-09-15",
       "end_num": 2025.667,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-coder-v2",
@@ -3233,7 +5065,13 @@
       "launch_num": 2024.5,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/deepseek/deepseek-coder"
+      "source": "https://openrouter.ai/models/deepseek/deepseek-coder",
+      "openrouter_id": "models/deepseek/deepseek-coder",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen2-72b-instruct",
@@ -3245,7 +5083,13 @@
       "launch_num": 2024.417,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/qwen/qwen-2-72b-instruct"
+      "source": "https://openrouter.ai/qwen/qwen-2-72b-instruct",
+      "openrouter_id": "qwen/qwen-2-72b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-3-haiku-20240307",
@@ -3257,7 +5101,13 @@
       "launch_num": 2024.167,
       "end": "2026-04-20",
       "end_num": 2026.25,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "amazon-nova-lite-v1.0",
@@ -3269,7 +5119,13 @@
       "launch_num": 2024.833,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-1.5-flash-8b-001",
@@ -3281,7 +5137,13 @@
       "launch_num": 2024.75,
       "end": "2025-09",
       "end_num": 2025.667,
-      "source": "https://ai.google.dev/gemini-api/docs/deprecations"
+      "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "phi-4",
@@ -3293,7 +5155,13 @@
       "launch_num": 2024.833,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/microsoft/phi-4"
+      "source": "https://openrouter.ai/microsoft/phi-4",
+      "openrouter_id": "microsoft/phi-4",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.07,
+      "price_output_per_mtok": 0.14
     },
     {
       "model": "olmo-2-0325-32b-instruct",
@@ -3305,7 +5173,13 @@
       "launch_num": 2025.333,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/allenai/olmo-2-0325-32b-instruct"
+      "source": "https://openrouter.ai/allenai/olmo-2-0325-32b-instruct",
+      "openrouter_id": "allenai/olmo-2-0325-32b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "command-r-08-2024",
@@ -3317,7 +5191,13 @@
       "launch_num": 2024.583,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/cohere/command-r-08-2024"
+      "source": "https://openrouter.ai/cohere/command-r-08-2024",
+      "openrouter_id": "cohere/command-r-08-2024",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.15,
+      "price_output_per_mtok": 0.6
     },
     {
       "model": "mistral-large-2402",
@@ -3329,7 +5209,13 @@
       "launch_num": 2023.833,
       "end": "2025-06",
       "end_num": 2025.417,
-      "source": "https://docs.mistral.ai/getting-started/models/models_overview/"
+      "source": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "amazon-nova-micro-v1.0",
@@ -3341,7 +5227,13 @@
       "launch_num": 2024.833,
       "end": null,
       "end_num": null,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "jamba-1.5-mini",
@@ -3353,7 +5245,13 @@
       "launch_num": 2024.583,
       "end": "2025-05-06",
       "end_num": 2025.333,
-      "source": "https://openrouter.ai/models/ai21/jamba-1-5-mini"
+      "source": "https://openrouter.ai/models/ai21/jamba-1-5-mini",
+      "openrouter_id": "models/ai21/jamba-1-5-mini",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "ministral-8b-2410",
@@ -3365,7 +5263,13 @@
       "launch_num": 2024.75,
       "end": "2025-12",
       "end_num": 2025.917,
-      "source": "https://docs.mistral.ai/getting-started/models/models_overview/"
+      "source": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen1.5-110b-chat",
@@ -3377,7 +5281,13 @@
       "launch_num": 2024.25,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-110b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-110b-chat",
+      "openrouter_id": "models/qwen/qwen-110b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen1.5-72b-chat",
@@ -3389,7 +5299,13 @@
       "launch_num": 2024.0,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-72b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-72b-chat",
+      "openrouter_id": "models/qwen/qwen-72b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-pro-dev-api",
@@ -3401,7 +5317,13 @@
       "launch_num": 2024.0,
       "end": "2025-04",
       "end_num": 2025.25,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mixtral-8x22b-instruct-v0.1",
@@ -3413,7 +5335,13 @@
       "launch_num": 2024.333,
       "end": "2025-03-30",
       "end_num": 2025.167,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "command-r",
@@ -3425,7 +5353,13 @@
       "launch_num": 2023.917,
       "end": "2025-09-15",
       "end_num": 2025.667,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-medium",
@@ -3437,7 +5371,13 @@
       "launch_num": 2023.833,
       "end": "2025-06-16",
       "end_num": 2025.417,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-3.5-turbo-0125",
@@ -3449,7 +5389,13 @@
       "launch_num": 2024.0,
       "end": "2026-10-23",
       "end_num": 2026.75,
-      "source": "https://openrouter.ai/openai/gpt-3.5-turbo"
+      "source": "https://openrouter.ai/openai/gpt-3.5-turbo",
+      "openrouter_id": "openai/gpt-3.5-turbo",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.5,
+      "price_output_per_mtok": 1.5
     },
     {
       "model": "llama-3-8b-instruct",
@@ -3461,7 +5407,13 @@
       "launch_num": 2024.25,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-3-8b-instruct"
+      "source": "https://openrouter.ai/meta-llama/llama-3-8b-instruct",
+      "openrouter_id": "meta-llama/llama-3-8b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemini-pro",
@@ -3473,7 +5425,13 @@
       "launch_num": 2023.917,
       "end": "2025-04",
       "end_num": 2025.25,
-      "source": "https://ai.google.dev/gemini-api/docs/pricing"
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.1-8b-instruct",
@@ -3485,7 +5443,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct"
+      "source": "https://openrouter.ai/models/meta-llama/llama-3.1-8b-instruct",
+      "openrouter_id": "models/meta-llama/llama-3.1-8b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "yi-large-preview",
@@ -3497,7 +5461,13 @@
       "launch_num": 2024.5,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": "https://openrouter.ai/01-ai/yi-large"
+      "source": "https://openrouter.ai/01-ai/yi-large",
+      "openrouter_id": "01-ai/yi-large",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen-plus-0828",
@@ -3509,7 +5479,13 @@
       "launch_num": 2024.583,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": "https://openrouter.ai/qwen/qwen-plus"
+      "source": "https://openrouter.ai/qwen/qwen-plus",
+      "openrouter_id": "qwen/qwen-plus",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.26,
+      "price_output_per_mtok": 0.78
     },
     {
       "model": "qwen1.5-32b-chat",
@@ -3521,7 +5497,13 @@
       "launch_num": 2023.833,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-32b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-32b-chat",
+      "openrouter_id": "models/qwen/qwen-32b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-v2-api-0628",
@@ -3533,7 +5515,13 @@
       "launch_num": 2024.417,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-3.5-turbo-1106",
@@ -3545,7 +5533,13 @@
       "launch_num": 2023.833,
       "end": "2026-09-28",
       "end_num": 2026.667,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "deepseek-coder-v2-0724",
@@ -3557,7 +5551,13 @@
       "launch_num": 2024.5,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-2-2b-it",
@@ -3569,7 +5569,13 @@
       "launch_num": 2024.417,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/google/gemma-2-9b-it"
+      "source": "https://openrouter.ai/google/gemma-2-9b-it",
+      "openrouter_id": "google/gemma-2-9b-it",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mixtral-8x7b-instruct-v0.1",
@@ -3581,7 +5587,13 @@
       "launch_num": 2024.167,
       "end": "2025-03-30",
       "end_num": 2025.167,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "yi-large",
@@ -3593,7 +5605,13 @@
       "launch_num": 2023.75,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": "https://openrouter.ai/models/01-ai/yi-large"
+      "source": "https://openrouter.ai/models/01-ai/yi-large",
+      "openrouter_id": "models/01-ai/yi-large",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen1.5-14b-chat",
@@ -3605,7 +5623,13 @@
       "launch_num": 2023.667,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-14b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-14b-chat",
+      "openrouter_id": "models/qwen/qwen-14b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "yi-34b-chat",
@@ -3617,7 +5641,13 @@
       "launch_num": 2023.833,
       "end": "2024-08-22",
       "end_num": 2024.583,
-      "source": "https://openrouter.ai/01-ai/yi-34b-chat"
+      "source": "https://openrouter.ai/01-ai/yi-34b-chat",
+      "openrouter_id": "01-ai/yi-34b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "openchat-3.5-0106",
@@ -3629,7 +5659,13 @@
       "launch_num": 2024.0,
       "end": "2024-08-22",
       "end_num": 2024.583,
-      "source": "https://docs.together.ai/docs/deprecations"
+      "source": "https://docs.together.ai/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "openchat-3.5",
@@ -3641,7 +5677,13 @@
       "launch_num": 2024.0,
       "end": "2024-08-22",
       "end_num": 2024.583,
-      "source": "https://docs.together.ai/docs/deprecations"
+      "source": "https://docs.together.ai/docs/deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "snowflake-arctic-instruct",
@@ -3653,7 +5695,13 @@
       "launch_num": 2023.917,
       "end": "2026-04",
       "end_num": 2026.25,
-      "source": "https://openrouter.ai/models/snowflake/snowflake-arctic-instruct"
+      "source": "https://openrouter.ai/models/snowflake/snowflake-arctic-instruct",
+      "openrouter_id": "models/snowflake/snowflake-arctic-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-1.1-7b-it",
@@ -3665,7 +5713,13 @@
       "launch_num": 2024.25,
       "end": "2026-05-30",
       "end_num": 2026.333,
-      "source": "https://developers.cloudflare.com/workers-ai/models/gemma-7b-it/"
+      "source": "https://developers.cloudflare.com/workers-ai/models/gemma-7b-it/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen-max-0428",
@@ -3677,7 +5731,13 @@
       "launch_num": 2024.25,
       "end": "2025-01",
       "end_num": 2025.0,
-      "source": "https://openrouter.ai/qwen/qwen-max"
+      "source": "https://openrouter.ai/qwen/qwen-max",
+      "openrouter_id": "qwen/qwen-max",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-2-70b-chat",
@@ -3689,7 +5749,13 @@
       "launch_num": 2023.5,
       "end": "2026-02",
       "end_num": 2026.083,
-      "source": "https://openrouter.ai/meta-llama/llama-2-70b-chat"
+      "source": "https://openrouter.ai/meta-llama/llama-2-70b-chat",
+      "openrouter_id": "meta-llama/llama-2-70b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.2-3b-instruct",
@@ -3701,7 +5767,13 @@
       "launch_num": 2024.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-3.2-3b-instruct"
+      "source": "https://openrouter.ai/meta-llama/llama-3.2-3b-instruct",
+      "openrouter_id": "meta-llama/llama-3.2-3b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.0509,
+      "price_output_per_mtok": 0.335
     },
     {
       "model": "claude-1",
@@ -3713,7 +5785,13 @@
       "launch_num": 2023.167,
       "end": "2024-11-06",
       "end_num": 2024.833,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "mistral-7b-instruct-v0.2",
@@ -3725,7 +5803,13 @@
       "launch_num": 2023.917,
       "end": "2025-03-30",
       "end_num": 2025.167,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-2.0",
@@ -3737,7 +5821,13 @@
       "launch_num": 2023.5,
       "end": "2025-07-21",
       "end_num": 2025.5,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen1.5-7b-chat",
@@ -3749,7 +5839,13 @@
       "launch_num": 2023.667,
       "end": "2025-08-20",
       "end_num": 2025.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-7b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-7b-chat",
+      "openrouter_id": "models/qwen/qwen-7b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-2-13b-chat",
@@ -3761,7 +5857,13 @@
       "launch_num": 2023.5,
       "end": "2025-06-30",
       "end_num": 2025.417,
-      "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models"
+      "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-3.5-turbo-0314",
@@ -3773,7 +5875,13 @@
       "launch_num": 2023.167,
       "end": "2025-07",
       "end_num": 2025.5,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gpt-3.5-turbo-0613",
@@ -3785,7 +5893,13 @@
       "launch_num": 2023.417,
       "end": "2024-09-13",
       "end_num": 2024.667,
-      "source": "https://platform.openai.com/docs/deprecations/"
+      "source": "https://platform.openai.com/docs/deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-2.1",
@@ -3797,7 +5911,13 @@
       "launch_num": 2023.833,
       "end": "2025-07-21",
       "end_num": 2025.5,
-      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations"
+      "source": "https://docs.anthropic.com/en/docs/about-claude/model-deprecations",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "gemma-7b-it",
@@ -3809,7 +5929,13 @@
       "launch_num": 2024.25,
       "end": "2026-05-30",
       "end_num": 2026.333,
-      "source": "https://developers.cloudflare.com/changelog/post/2026-05-08-planned-model-deprecations/"
+      "source": "https://developers.cloudflare.com/changelog/post/2026-05-08-planned-model-deprecations/",
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "claude-instant-1",
@@ -3821,7 +5947,13 @@
       "launch_num": 2023.167,
       "end": "2024-11-06",
       "end_num": 2024.833,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-3.2-1b-instruct",
@@ -3833,7 +5965,13 @@
       "launch_num": 2024.667,
       "end": null,
       "end_num": null,
-      "source": "https://openrouter.ai/meta-llama/llama-3.2-1b-instruct"
+      "source": "https://openrouter.ai/meta-llama/llama-3.2-1b-instruct",
+      "openrouter_id": "meta-llama/llama-3.2-1b-instruct",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": 0.027,
+      "price_output_per_mtok": 0.201
     },
     {
       "model": "mistral-7b-instruct",
@@ -3845,7 +5983,13 @@
       "launch_num": 2023.667,
       "end": "2025-03-30",
       "end_num": 2025.167,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "llama-2-7b-chat",
@@ -3857,7 +6001,13 @@
       "launch_num": 2023.5,
       "end": "2025-06-30",
       "end_num": 2025.417,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "qwen1.5-4b-chat",
@@ -3869,7 +6019,13 @@
       "launch_num": 2023.667,
       "end": "2024-08-22",
       "end_num": 2024.583,
-      "source": "https://openrouter.ai/models/qwen/qwen-4b-chat"
+      "source": "https://openrouter.ai/models/qwen/qwen-4b-chat",
+      "openrouter_id": "models/qwen/qwen-4b-chat",
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "pplx-70b-online",
@@ -3881,7 +6037,13 @@
       "launch_num": 2024.083,
       "end": "2025-07",
       "end_num": 2025.5,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     },
     {
       "model": "pplx-7b-online",
@@ -3893,7 +6055,13 @@
       "launch_num": 2024.083,
       "end": "2025-07",
       "end_num": 2025.5,
-      "source": null
+      "source": null,
+      "openrouter_id": null,
+      "supported_efforts": null,
+      "default_effort": null,
+      "reasoning_mandatory": null,
+      "price_input_per_mtok": null,
+      "price_output_per_mtok": null
     }
   ]
 }

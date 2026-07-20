@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from urllib.request import Request, urlopen
 
 import numpy as np
 import pandas as pd
@@ -67,6 +68,29 @@ def infer_reasoning(model: str) -> str:
     return "standard"
 
 
+def openrouter_map() -> dict[str, dict]:
+    req = Request(
+        "https://openrouter.ai/api/v1/models",
+        headers={"User-Agent": "llm-coding-pareto/1.0"},
+    )
+    try:
+        with urlopen(req, timeout=60) as response:
+            payload = json.load(response)
+    except Exception:
+        return {}
+    out = {}
+    for item in payload.get("data", []):
+        slug = item.get("id", "")
+        out[slug.lower()] = item
+    return out
+
+
+def openrouter_slug(source: object) -> str:
+    text = str(source)
+    prefix = "https://openrouter.ai/"
+    return text.removeprefix(prefix).lower() if text.startswith(prefix) else ""
+
+
 def main() -> int:
     df = pd.read_csv(DATA)
     df = df.dropna(subset=["coding", "cpmi", "launch"]).copy()
@@ -76,9 +100,14 @@ def main() -> int:
     df["provider"] = [infer_provider(m, s) for m, s in zip(df["model"], df.get("source", ""))]
     df["reasoning"] = df["model"].map(infer_reasoning)
 
+    or_map = openrouter_map()
     years = sorted({int(np.floor(x)) for x in df["launch_num"].dropna()} | {2026})
     records = []
     for _, row in df.iterrows():
+        slug = openrouter_slug(row.get("source", ""))
+        or_item = or_map.get(slug, {})
+        reasoning_meta = or_item.get("reasoning") or {}
+        pricing = or_item.get("pricing") or {}
         records.append(
             {
                 "model": row["model"],
@@ -91,6 +120,12 @@ def main() -> int:
                 "end": None if pd.isna(row.get("end")) else str(row.get("end")),
                 "end_num": None if pd.isna(row.get("end_num")) else round(float(row["end_num"]), 3),
                 "source": None if pd.isna(row.get("source")) else str(row.get("source")),
+                "openrouter_id": slug or None,
+                "supported_efforts": reasoning_meta.get("supported_efforts"),
+                "default_effort": reasoning_meta.get("default_effort"),
+                "reasoning_mandatory": reasoning_meta.get("mandatory"),
+                "price_input_per_mtok": None if pricing.get("prompt") is None else float(pricing["prompt"]) * 1_000_000,
+                "price_output_per_mtok": None if pricing.get("completion") is None else float(pricing["completion"]) * 1_000_000,
             }
         )
 

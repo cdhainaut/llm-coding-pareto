@@ -1,12 +1,15 @@
 const state = {
   records: [],
-  filtered: [],
   years: [],
   providerSet: [],
-  reasoningSet: [],
+  effortSet: [],
+  modelSet: [],
   selectedProviders: new Set(),
-  selectedReasoning: new Set(),
+  selectedEfforts: new Set(),
+  selectedModels: new Set(),
 };
+
+const DEFAULT_EFFORTS = ['standard'];
 
 function paretoFront(records) {
   const ordered = [...records].sort((a, b) => a.cpmi - b.cpmi || b.coding - a.coding);
@@ -34,29 +37,93 @@ function selectedValues(select) {
   return [...select.selectedOptions].map((o) => o.value);
 }
 
+function recordEfforts(row) {
+  if (Array.isArray(row.supported_efforts) && row.supported_efforts.length) {
+    return row.supported_efforts;
+  }
+  return DEFAULT_EFFORTS;
+}
+
+function effortText(row) {
+  const efforts = recordEfforts(row);
+  return efforts.length ? efforts.join(', ') : row.reasoning || 'standard';
+}
+
+function optionHtml(values) {
+  return values.map((v) => `<option value="${v}" selected>${v}</option>`).join('');
+}
+
+function refreshSelectOptions(select, values, selectedSet) {
+  const selected = values.filter((v) => selectedSet.has(v));
+  select.innerHTML = values
+    .map((v) => `<option value="${v}" ${selected.includes(v) ? 'selected' : ''}>${v}</option>`)
+    .join('');
+}
+
+function setAll(select, values) {
+  select.innerHTML = values.map((v) => `<option value="${v}" selected>${v}</option>`).join('');
+}
+
+function setNone(select, values) {
+  select.innerHTML = values.map((v) => `<option value="${v}">${v}</option>`).join('');
+}
+
+function initSelectButtons() {
+  document.querySelectorAll('button[data-select]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const key = button.dataset.select;
+      const mode = button.dataset.mode;
+      const select = document.getElementById(key);
+      const values = {
+        provider: state.providerSet,
+        effort: state.effortSet,
+        model: state.modelSet,
+      }[key] || [];
+      if (mode === 'all') setAll(select, values);
+      else setNone(select, values);
+      syncSelections();
+      update();
+    });
+  });
+}
+
+function visibleModelValues() {
+  const q = document.getElementById('modelSearch').value.trim().toLowerCase();
+  return state.modelSet.filter((m) => !q || m.toLowerCase().includes(q));
+}
+
+function syncSelections() {
+  state.selectedProviders = new Set(selectedValues(document.getElementById('provider')));
+  state.selectedEfforts = new Set(selectedValues(document.getElementById('effort')));
+  state.selectedModels = new Set(selectedValues(document.getElementById('model')));
+}
+
 function initFilters() {
-  const providerSelect = document.getElementById('provider');
-  const reasoningSelect = document.getElementById('reasoning');
   state.providerSet = uniqueSorted(state.records.map((r) => r.provider));
-  state.reasoningSet = uniqueSorted(state.records.map((r) => r.reasoning));
+  state.effortSet = uniqueSorted(state.records.flatMap((r) => recordEfforts(r)));
+  state.modelSet = uniqueSorted(state.records.map((r) => r.model));
+
   state.selectedProviders = new Set(state.providerSet);
-  state.selectedReasoning = new Set(state.reasoningSet);
+  state.selectedEfforts = new Set(state.effortSet);
+  state.selectedModels = new Set(state.modelSet);
 
-  providerSelect.innerHTML = state.providerSet
-    .map((p) => `<option value="${p}" selected>${p}</option>`)
-    .join('');
-  reasoningSelect.innerHTML = state.reasoningSet
-    .map((r) => `<option value="${r}" selected>${r}</option>`)
-    .join('');
+  document.getElementById('provider').innerHTML = optionHtml(state.providerSet);
+  document.getElementById('effort').innerHTML = optionHtml(state.effortSet);
+  document.getElementById('model').innerHTML = optionHtml(state.modelSet);
 
-  providerSelect.addEventListener('change', () => {
-    state.selectedProviders = new Set(selectedValues(providerSelect));
+  ['provider', 'effort', 'model'].forEach((id) => {
+    document.getElementById(id).addEventListener('change', () => {
+      syncSelections();
+      update();
+    });
+  });
+
+  document.getElementById('modelSearch').addEventListener('input', () => {
+    refreshSelectOptions(document.getElementById('model'), visibleModelValues(), state.selectedModels);
     update();
   });
-  reasoningSelect.addEventListener('change', () => {
-    state.selectedReasoning = new Set(selectedValues(reasoningSelect));
-    update();
-  });
+
+  initSelectButtons();
 }
 
 function filteredRecords() {
@@ -65,7 +132,8 @@ function filteredRecords() {
   const search = document.getElementById('search').value.trim().toLowerCase();
   return activeForYear(state.records, year)
     .filter((r) => state.selectedProviders.has(r.provider))
-    .filter((r) => state.selectedReasoning.has(r.reasoning))
+    .filter((r) => recordEfforts(r).some((effort) => state.selectedEfforts.has(effort)))
+    .filter((r) => state.selectedModels.has(r.model))
     .filter((r) => r.cpmi <= maxCost)
     .filter((r) => !search || r.model.toLowerCase().includes(search));
 }
@@ -74,12 +142,17 @@ function traceFor(rows, name, marker, extra = {}) {
   return {
     x: rows.map((r) => r.cpmi),
     y: rows.map((r) => r.coding),
-    text: rows.map((r) => `${r.model}<br>${r.provider}<br>${r.reasoning}`),
+    text: rows.map((r) => `${r.model}<br>${r.provider}<br>${effortText(r)}`),
+    customdata: rows.map((r) => [r.price_output_per_mtok ?? 'n/a', r.default_effort ?? 'n/a']),
     mode: 'markers',
     name,
     marker,
     hovertemplate:
-      '<b>%{text}</b><br>$%{x:.3g}/M input tokens<br>coding Elo %{y:.0f}<extra></extra>',
+      '<b>%{text}</b><br>' +
+      '$%{x:.3g}/M input tokens<br>' +
+      '$%{customdata[0]:.3g}/M output tokens<br>' +
+      'default effort: %{customdata[1]}<br>' +
+      'coding Elo %{y:.0f}<extra></extra>',
     ...extra,
   };
 }
@@ -138,14 +211,14 @@ function update() {
   };
   Plotly.react('chart', traces, layout, { responsive: true, displayModeBar: false });
 
-  const tbody = document.getElementById('frontTable');
-  tbody.innerHTML = front
+  document.getElementById('frontTable').innerHTML = front
     .map((r) => `
       <tr>
         <td>${r.model}</td>
         <td>${r.provider}</td>
-        <td>${r.reasoning}</td>
+        <td>${effortText(r)}</td>
         <td class="num">$${r.cpmi}</td>
+        <td class="num">${r.price_output_per_mtok == null ? 'n/a' : '$' + r.price_output_per_mtok}</td>
         <td class="num">${r.coding}</td>
         <td>${r.launch}</td>
       </tr>

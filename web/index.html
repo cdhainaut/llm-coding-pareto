@@ -13,29 +13,47 @@
       <div>
         <p class="kicker">Cost vs coding intelligence</p>
         <h1>LLM coding Pareto</h1>
-        <p class="subtitle">Front de Pareto coût input → coding Elo, avec filtres provider, niveau de raisonnement et année.</p>
+        <p class="subtitle">Front de Pareto coût input → coding Elo, avec filtres provider, modèle et niveau de raisonnement disponible.</p>
       </div>
       <div class="source">
         Source : <a href="https://github.com/sanand0/llmpricing">sanand0/llmpricing</a> ·
+        <a href="https://openrouter.ai/docs/api/api-reference/models/get-models">OpenRouter models</a> ·
         <a href="./data/models.json">data JSON</a>
       </div>
     </header>
 
     <section class="controls">
-      <label>
-        Année
+      <div class="control-row full">
+        <label class="year-label">
+          Année
+          <span id="yearLabel">2026</span>
+        </label>
         <input id="year" type="range" min="2023" max="2026" step="1" value="2026" />
-        <span id="yearLabel">2026</span>
+      </div>
+
+      <label class="multi">
+        <span class="multi-head">
+          Providers
+          <span class="actions"><button type="button" data-select="provider" data-mode="all">tous</button><button type="button" data-select="provider" data-mode="none">aucun</button></span>
+        </span>
+        <select id="provider" multiple size="7"></select>
       </label>
 
-      <label>
-        Providers
-        <select id="provider" multiple size="5"></select>
+      <label class="multi">
+        <span class="multi-head">
+          Niveaux de raisonnement
+          <span class="actions"><button type="button" data-select="effort" data-mode="all">tous</button><button type="button" data-select="effort" data-mode="none">aucun</button></span>
+        </span>
+        <select id="effort" multiple size="7"></select>
       </label>
 
-      <label>
-        Raisonnement
-        <select id="reasoning" multiple size="4"></select>
+      <label class="multi">
+        <span class="multi-head">
+          Modèles
+          <span class="actions"><button type="button" data-select="model" data-mode="all">tous</button><button type="button" data-select="model" data-mode="none">aucun</button></span>
+        </span>
+        <input id="modelSearch" type="search" placeholder="filtrer la liste…" />
+        <select id="model" multiple size="7"></select>
       </label>
 
       <label>
@@ -44,7 +62,7 @@
       </label>
 
       <label>
-        Recherche modèle
+        Recherche texte
         <input id="search" type="search" placeholder="kimi, opus, gpt..." />
       </label>
 
@@ -72,8 +90,9 @@
             <tr>
               <th>Modèle</th>
               <th>Provider</th>
-              <th>Raisonnement</th>
+              <th>Niveaux disponibles</th>
               <th>Coût input</th>
+              <th>Coût output</th>
               <th>Coding Elo</th>
               <th>Launch</th>
             </tr>
@@ -84,7 +103,7 @@
     </section>
 
     <footer class="footer">
-      Données LMArena / llmpricing. Prix input seuls. Coding Elo ≠ validation métier.
+      Données LMArena / llmpricing + métadonnées OpenRouter. Prix input/output affichés séparément. Les niveaux de raisonnement indiquent les modes disponibles ; le Elo n'est pas mesuré pour chaque combinaison modèle × effort.
     </footer>
   </main>
 
