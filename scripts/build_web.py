@@ -93,8 +93,7 @@ def openrouter_slug(source: object) -> str:
 
 def main() -> int:
     df = pd.read_csv(DATA)
-    df = df.dropna(subset=["coding", "cpmi", "launch"]).copy()
-    df = df[(df["coding"] > 0) & (df["cpmi"] > 0)]
+    df = df.copy()
     df["launch_num"] = df["launch"].map(parse_year_month)
     df["end_num"] = df["end"].map(parse_year_month) if "end" in df else np.nan
     df["provider"] = [infer_provider(m, s) for m, s in zip(df["model"], df.get("source", ""))]
@@ -108,15 +107,36 @@ def main() -> int:
         or_item = or_map.get(slug, {})
         reasoning_meta = or_item.get("reasoning") or {}
         pricing = or_item.get("pricing") or {}
+        aa = (or_item.get("benchmarks") or {}).get("artificial_analysis") or {}
+        launch_num = row.get("launch_num")
+        if pd.isna(launch_num):
+            created = or_item.get("created")
+            if created:
+                from datetime import datetime, timezone
+
+                dt = datetime.fromtimestamp(int(created), tz=timezone.utc)
+                launch_num = dt.year + (dt.month - 1) / 12
+        if pd.isna(launch_num):
+            launch_num = 2026.0
+        cpmi = row.get("cpmi")
+        if pd.isna(cpmi) and pricing.get("prompt") is not None:
+            cpmi = float(pricing["prompt"]) * 1_000_000
+        if pd.isna(cpmi) or float(cpmi) <= 0:
+            continue
         records.append(
             {
                 "model": row["model"],
                 "provider": row["provider"],
                 "reasoning": row["reasoning"],
-                "coding": round(float(row["coding"]), 2),
-                "cpmi": round(float(row["cpmi"]), 6),
-                "launch": str(row["launch"]),
-                "launch_num": round(float(row["launch_num"]), 3),
+                "overall": None if pd.isna(row.get("overall")) else round(float(row["overall"]), 2),
+                "hard": None if pd.isna(row.get("hard")) else round(float(row["hard"]), 2),
+                "coding": None if pd.isna(row.get("coding")) else round(float(row["coding"]), 2),
+                "aa_intelligence": aa.get("intelligence_index"),
+                "aa_coding": aa.get("coding_index"),
+                "aa_agentic": aa.get("agentic_index"),
+                "cpmi": round(float(cpmi), 6),
+                "launch": None if pd.isna(row.get("launch")) else str(row.get("launch")),
+                "launch_num": round(float(launch_num), 3),
                 "end": None if pd.isna(row.get("end")) else str(row.get("end")),
                 "end_num": None if pd.isna(row.get("end_num")) else round(float(row["end_num"]), 3),
                 "source": None if pd.isna(row.get("source")) else str(row.get("source")),

@@ -57,6 +57,18 @@
       </label>
 
       <label>
+        Métrique
+        <select id="metric">
+          <option value="coding" selected>Coding Elo</option>
+          <option value="overall">Overall Elo</option>
+          <option value="hard">Hard prompts Elo</option>
+          <option value="aa_coding">AA Coding Index</option>
+          <option value="aa_agentic">AA Agentic Index</option>
+          <option value="aa_intelligence">AA Intelligence Index</option>
+        </select>
+      </label>
+
+      <label>
         Coût max input ($/M)
         <input id="maxCost" type="number" min="0.01" step="0.01" value="80" />
       </label>
@@ -98,7 +110,7 @@
               <th>Niveaux disponibles</th>
               <th>Coût input</th>
               <th>Coût output</th>
-              <th>Coding Elo</th>
+              <th id="metricHeader">Coding Elo</th>
               <th>Launch</th>
             </tr>
           </thead>
@@ -108,7 +120,7 @@
     </section>
 
     <footer class="footer">
-      Données LMArena / llmpricing + métadonnées OpenRouter. Prix input/output affichés séparément. Les niveaux de raisonnement indiquent les modes disponibles ; le Elo n'est pas mesuré pour chaque combinaison modèle × effort.
+      Données LMArena / llmpricing + métadonnées OpenRouter + Artificial Analysis. Les niveaux de raisonnement indiquent les modes disponibles ; les scores ne sont pas mesurés pour chaque combinaison modèle × effort.
     </footer>
   </main>
 

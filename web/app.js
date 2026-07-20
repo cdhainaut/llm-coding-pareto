@@ -11,14 +11,57 @@ const state = {
 
 const DEFAULT_EFFORTS = ['standard'];
 
-function paretoFront(records) {
-  const ordered = [...records].sort((a, b) => a.cpmi - b.cpmi || b.coding - a.coding);
+const METRICS = {
+  coding: { label: 'Coding Elo', axis: 'coding Elo — LMArena', min: 1080, max: 1600 },
+  overall: { label: 'Overall Elo', axis: 'overall Elo — LMArena', min: 1080, max: 1600 },
+  hard: { label: 'Hard prompts Elo', axis: 'hard prompts Elo — LMArena', min: 1080, max: 1600 },
+  aa_coding: { label: 'AA Coding Index', axis: 'Artificial Analysis coding index', min: 30, max: 80 },
+  aa_agentic: { label: 'AA Agentic Index', axis: 'Artificial Analysis agentic index', min: 20, max: 60 },
+  aa_intelligence: { label: 'AA Intelligence Index', axis: 'Artificial Analysis intelligence index', min: 30, max: 70 },
+};
+
+const PROVIDER_COLORS = {
+  anthropic: '#f59e0b',
+  openai: '#10b981',
+  moonshotai: '#2563eb',
+  deepseek: '#ef4444',
+  google: '#7c3aed',
+  minimax: '#db2777',
+  qwen: '#0891b2',
+  meta: '#65a30d',
+  mistralai: '#ea580c',
+  'z-ai': '#9333ea',
+  'ibm-granite': '#64748b',
+  other: '#6b7280',
+};
+
+function metricKey() {
+  return document.getElementById('metric').value;
+}
+
+function metricValue(row, key = metricKey()) {
+  const value = row[key];
+  return value == null || Number.isNaN(value) ? null : Number(value);
+}
+
+function metricLabel() {
+  return METRICS[metricKey()].label;
+}
+
+function providerColor(provider) {
+  return PROVIDER_COLORS[provider] || PROVIDER_COLORS.other;
+}
+
+function paretoFront(records, key = metricKey()) {
+  const valid = records.filter((row) => metricValue(row, key) != null);
+  const ordered = [...valid].sort((a, b) => a.cpmi - b.cpmi || metricValue(b, key) - metricValue(a, key));
   const out = [];
   let best = -Infinity;
   for (const row of ordered) {
-    if (row.coding > best) {
+    const value = metricValue(row, key);
+    if (value > best) {
       out.push(row);
-      best = row.coding;
+      best = value;
     }
   }
   return out;
@@ -130,18 +173,21 @@ function filteredRecords() {
   const year = Number(document.getElementById('year').value);
   const maxCost = Number(document.getElementById('maxCost').value || 80);
   const search = document.getElementById('search').value.trim().toLowerCase();
+  const key = metricKey();
   return activeForYear(state.records, year)
     .filter((r) => state.selectedProviders.has(r.provider))
     .filter((r) => recordEfforts(r).some((effort) => state.selectedEfforts.has(effort)))
     .filter((r) => state.selectedModels.has(r.model))
+    .filter((r) => metricValue(r, key) != null)
     .filter((r) => r.cpmi <= maxCost)
     .filter((r) => !search || r.model.toLowerCase().includes(search));
 }
 
 function traceFor(rows, name, marker, extra = {}) {
+  const key = metricKey();
   return {
     x: rows.map((r) => r.cpmi),
-    y: rows.map((r) => r.coding),
+    y: rows.map((r) => metricValue(r, key)),
     text: rows.map((r) => `${r.model}<br>${r.provider}<br>${effortText(r)}`),
     customdata: rows.map((r) => [r.price_output_per_mtok ?? 'n/a', r.default_effort ?? 'n/a']),
     mode: 'markers',
@@ -152,7 +198,7 @@ function traceFor(rows, name, marker, extra = {}) {
       '$%{x:.3g}/M input tokens<br>' +
       '$%{customdata[0]:.3g}/M output tokens<br>' +
       'default effort: %{customdata[1]}<br>' +
-      'coding Elo %{y:.0f}<extra></extra>',
+      `${metricLabel()} %{y:.2f}<extra></extra>`,
     ...extra,
   };
 }
@@ -161,7 +207,7 @@ function update() {
   const year = document.getElementById('year').value;
   document.getElementById('yearLabel').textContent = year;
   const rows = filteredRecords();
-  const front = paretoFront(rows);
+  const front = paretoFront(rows, metricKey());
   const frontSet = new Set(front.map((r) => r.model));
   const others = rows.filter((r) => !frontSet.has(r.model));
   const frontOnly = document.getElementById('frontOnly').checked;
@@ -174,11 +220,19 @@ function update() {
 
   const traces = [];
   if (!frontOnly && others.length) {
-    traces.push(traceFor(others, 'modèles', {
-      size: 8,
-      color: 'rgba(100,116,139,0.48)',
-      line: { width: 0 },
-    }));
+    const byProvider = new Map();
+    for (const row of others) {
+      if (!byProvider.has(row.provider)) byProvider.set(row.provider, []);
+      byProvider.get(row.provider).push(row);
+    }
+    for (const [provider, providerRows] of byProvider) {
+      traces.push(traceFor(providerRows, provider, {
+        size: 8,
+        color: providerColor(provider),
+        opacity: 0.58,
+        line: { width: 0 },
+      }));
+    }
   }
   if (front.length) {
     traces.push(traceFor(front, 'front de Pareto', {
@@ -204,8 +258,9 @@ function update() {
     }));
   }
 
+  const metric = METRICS[metricKey()];
   const layout = {
-    title: `Coût vs coding Elo — ${year}`,
+    title: `Coût vs ${metric.label} — ${year}`,
     margin: { l: 70, r: 30, t: 55, b: 60 },
     xaxis: {
       title: 'coût input API — USD / million tokens (log)',
@@ -214,8 +269,8 @@ function update() {
       tickprefix: '$',
     },
     yaxis: {
-      title: 'coding Elo — LMArena',
-      range: [1080, 1600],
+      title: metric.axis,
+      range: [metric.min, metric.max],
       gridcolor: '#e5e7eb',
     },
     paper_bgcolor: 'white',
@@ -224,6 +279,7 @@ function update() {
   };
   Plotly.react('chart', traces, layout, { responsive: true, displayModeBar: false });
 
+  document.getElementById('metricHeader').textContent = metric.label;
   document.getElementById('frontTable').innerHTML = front
     .map((r) => `
       <tr>
@@ -232,7 +288,7 @@ function update() {
         <td>${effortText(r)}</td>
         <td class="num">$${r.cpmi}</td>
         <td class="num">${r.price_output_per_mtok == null ? 'n/a' : '$' + r.price_output_per_mtok}</td>
-        <td class="num">${r.coding}</td>
+        <td class="num">${metricValue(r)}</td>
         <td>${r.launch}</td>
       </tr>
     `)
@@ -246,7 +302,7 @@ async function main() {
   state.years = payload.years;
   initFilters();
 
-  ['year', 'maxCost', 'search', 'frontOnly', 'showLabels'].forEach((id) => {
+  ['year', 'metric', 'maxCost', 'search', 'frontOnly', 'showLabels'].forEach((id) => {
     document.getElementById(id).addEventListener('input', update);
     document.getElementById(id).addEventListener('change', update);
   });
