@@ -73,14 +73,33 @@ Produit :
 
 Le script filtre les modèles sans `coding` ou sans `cpmi`, puis calcule le front de Pareto en minimisant le coût et en maximisant le score coding.
 
-## CI
+## Site statique
 
-La GitHub Action `.github/workflows/update-pareto.yml` :
+Le dossier `web/` contient une petite application statique Plotly :
+
+- sélection de l'année ;
+- filtre par provider ;
+- filtre par niveau de raisonnement ;
+- filtre coût max ;
+- recherche modèle ;
+- option pour n'afficher que le front de Pareto.
+
+La donnée web est générée dans `web/data/models.json` par :
+
+```bash
+python scripts/build_web.py
+```
+
+## CI / GitHub Pages
+
+La GitHub Action `.github/workflows/update-pareto.yml` met à jour les données et assets une fois par mois.
+
+La GitHub Action `.github/workflows/pages.yml` :
 
 1. télécharge `elo.csv` ;
-2. régénère les assets ;
-3. commit/push seulement si quelque chose a changé ;
-4. s'exécute quotidiennement ou manuellement.
+2. génère `web/data/models.json` ;
+3. déploie le dossier `web/` sur GitHub Pages ;
+4. s'exécute mensuellement, sur modification de `web/`, ou manuellement.
 
 ## Limites
 
