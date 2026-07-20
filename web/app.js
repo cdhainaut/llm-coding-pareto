@@ -191,6 +191,19 @@ function update() {
     }));
   }
 
+  if (document.getElementById('showLabels').checked && displayed.length) {
+    traces.push(traceFor(displayed, 'noms', {
+      size: 9,
+      color: 'rgba(37,99,235,0.0)',
+      line: { width: 0 },
+    }, {
+      mode: 'text',
+      textposition: 'top center',
+      textfont: { size: 10, color: '#1d4ed8' },
+      showlegend: false,
+    }));
+  }
+
   const layout = {
     title: `Coût vs coding Elo — ${year}`,
     margin: { l: 70, r: 30, t: 55, b: 60 },
@@ -233,7 +246,7 @@ async function main() {
   state.years = payload.years;
   initFilters();
 
-  ['year', 'maxCost', 'search', 'frontOnly'].forEach((id) => {
+  ['year', 'maxCost', 'search', 'frontOnly', 'showLabels'].forEach((id) => {
     document.getElementById(id).addEventListener('input', update);
     document.getElementById(id).addEventListener('change', update);
   });
